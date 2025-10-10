@@ -15,8 +15,8 @@
                 <li class="nav-item"><a class="nav-link" href="index.php#home">Inicio</a></li>
                 <li class="nav-item"><a class="nav-link" href="index.php#servicios">Servicios</a></li>
                 <li class="nav-item"><a class="nav-link" href="index.php#proyectos">Proyectos</a></li>
-                
-                <!-- NUEVO: Tech Lab con dropdown -->
+                <li class="nav-item"><a class="nav-link" href="index.php#equipo">Equipo</a></li>
+                 <!-- NUEVO: Tech Lab con dropdown -->
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="techLabDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                         <i class="fas fa-flask me-1"></i>Tech Lab
@@ -67,7 +67,6 @@
                     </ul>
                 </li>
                 
-                <li class="nav-item"><a class="nav-link" href="index.php#equipo">Equipo</a></li>
                 <li class="nav-item"><a class="nav-link btn-contacto" href="index.php#contacto">Contacto</a></li>
             </ul>
         </div>

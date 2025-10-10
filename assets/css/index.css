@@ -54,6 +54,7 @@ body {
         rgba(0, 82, 204, 0.8) 50%, 
         rgba(0, 61, 153, 0.9) 100%
     );
+    z-index: 1; 
 }
 
 .animated-shapes {
@@ -63,6 +64,7 @@ body {
     width: 100%;
     height: 100%;
     overflow: hidden;
+    z-index: 1;
 }
 
 .shape {
@@ -122,7 +124,7 @@ body {
 
 .hero-content {
     position: relative;
-    z-index: 2;
+    z-index: 10;
 }
 
 .hero-badge {
@@ -245,6 +247,7 @@ body {
     position: relative;
     height: 500px;
     animation: fadeInRight 1s ease;
+    z-index: 10;
 }
 
 .floating-card {
@@ -258,6 +261,7 @@ body {
     gap: 10px;
     font-weight: 600;
     animation: floatCard 3s infinite ease-in-out;
+    z-index: 15;
 }
 
 .floating-card i {
@@ -307,6 +311,7 @@ body {
     justify-content: center;
     border: 2px solid rgba(255, 255, 255, 0.3);
     animation: pulse 3s infinite ease-in-out;
+    z-index: 12;
 }
 
 .hero-main-graphic i {
@@ -328,7 +333,7 @@ body {
     bottom: 30px;
     left: 50%;
     transform: translateX(-50%);
-    z-index: 3;
+    z-index: 10;
 }
 
 .scroll-indicator a {
@@ -3221,5 +3226,576 @@ body {
     
     .comparison-table {
         min-width: 600px;
+    }
+}
+/* ========================================
+   Video Daily Meeting SCRUM
+======================================== */
+.video-section {
+    margin-bottom: 2rem;
+}
+
+.video-section h3 {
+    color: #fff;
+    font-size: 1.4rem;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.video-wrapper {
+    position: relative;
+    padding-bottom: 56.25%; /* Mantiene proporción 16:9 */
+    height: 0;
+    overflow: hidden;
+    border-radius: 15px;
+    border: 2px solid rgba(0, 102, 255, 0.2);
+    box-shadow: 0 10px 30px rgba(0, 102, 255, 0.2);
+}
+
+.video-wrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-radius: 15px;
+}
+/* ========================================
+   ESTILOS ESPECÍFICOS PARA MODAL PENPOT
+======================================== */
+
+/* Timeline Cards */
+.timeline-card {
+    background: rgba(0, 102, 255, 0.05);
+    border: 2px solid rgba(0, 102, 255, 0.2);
+    border-radius: 20px;
+    padding: 2rem;
+    height: 100%;
+    transition: all 0.3s ease;
+}
+
+.timeline-card:hover {
+    background: rgba(0, 102, 255, 0.1);
+    border-color: var(--primary-color);
+    transform: translateY(-5px);
+    box-shadow: 0 15px 40px rgba(0, 102, 255, 0.3);
+}
+
+.timeline-year {
+    display: inline-block;
+    background: linear-gradient(135deg, var(--primary-color), #0052cc);
+    color: white;
+    padding: 0.5rem 1.5rem;
+    border-radius: 30px;
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+    box-shadow: 0 5px 20px rgba(0, 102, 255, 0.4);
+}
+
+.timeline-card h5 {
+    color: #fff;
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.timeline-card p {
+    color: rgba(255, 255, 255, 0.85);
+    line-height: 1.7;
+    margin: 0;
+}
+
+/* Use Cases Grid */
+.use-cases-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2rem;
+}
+
+.use-case-card {
+    background: rgba(0, 102, 255, 0.05);
+    border: 2px solid rgba(0, 102, 255, 0.2);
+    border-radius: 20px;
+    padding: 2rem;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+.use-case-card:hover {
+    background: rgba(0, 102, 255, 0.1);
+    border-color: var(--primary-color);
+    transform: translateY(-10px);
+    box-shadow: 0 15px 40px rgba(0, 102, 255, 0.3);
+}
+
+.use-case-icon {
+    width: 80px;
+    height: 80px;
+    background: linear-gradient(135deg, var(--primary-color), #0052cc);
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 1.5rem;
+    transition: all 0.3s ease;
+}
+
+.use-case-card:hover .use-case-icon {
+    transform: scale(1.1) rotate(5deg);
+    box-shadow: 0 10px 30px rgba(0, 102, 255, 0.5);
+}
+
+.use-case-icon i {
+    font-size: 2.2rem;
+    color: white;
+}
+
+.use-case-card h5 {
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.use-case-card p {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 0.95rem;
+    line-height: 1.6;
+    margin: 0;
+}
+
+/* Pricing Cards */
+.pricing-card {
+    background: rgba(0, 102, 255, 0.05);
+    border: 2px solid rgba(0, 102, 255, 0.2);
+    border-radius: 25px;
+    padding: 2.5rem 2rem;
+    text-align: center;
+    transition: all 0.3s ease;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.pricing-card:hover {
+    background: rgba(0, 102, 255, 0.1);
+    border-color: var(--primary-color);
+    transform: translateY(-10px);
+    box-shadow: 0 20px 50px rgba(0, 102, 255, 0.4);
+}
+
+.pricing-card.featured {
+    border-color: var(--primary-color);
+    border-width: 3px;
+    background: rgba(0, 102, 255, 0.08);
+}
+
+.featured-badge {
+    position: absolute;
+    top: 1.5rem;
+    right: -2rem;
+    background: linear-gradient(135deg, #ffd700, #ffed4e);
+    color: #333;
+    padding: 0.4rem 3rem;
+    font-size: 0.85rem;
+    font-weight: 700;
+    transform: rotate(45deg);
+    box-shadow: 0 5px 15px rgba(255, 215, 0, 0.4);
+}
+
+.pricing-header {
+    margin-bottom: 2rem;
+}
+
+.pricing-header i {
+    font-size: 3rem;
+    color: var(--primary-color);
+    margin-bottom: 1rem;
+}
+
+.pricing-header h4 {
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.price {
+    font-size: 3.5rem;
+    font-weight: 900;
+    color: var(--primary-color);
+    line-height: 1;
+    margin-bottom: 0.5rem;
+}
+
+.price-label {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 0.95rem;
+}
+
+.pricing-features {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.pricing-features li {
+    color: rgba(255, 255, 255, 0.85);
+    padding: 0.75rem 0;
+    border-bottom: 1px solid rgba(0, 102, 255, 0.1);
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+}
+
+.pricing-features li:last-child {
+    border-bottom: none;
+}
+
+.pricing-features li i {
+    color: #28a745;
+    font-size: 1rem;
+}
+
+/* Learning Cards */
+.learning-card {
+    background: rgba(0, 102, 255, 0.05);
+    border: 2px solid rgba(0, 102, 255, 0.2);
+    border-radius: 20px;
+    padding: 2rem;
+    height: 100%;
+    transition: all 0.3s ease;
+}
+
+.learning-card:hover {
+    background: rgba(0, 102, 255, 0.1);
+    border-color: var(--primary-color);
+    transform: translateY(-5px);
+    box-shadow: 0 15px 40px rgba(0, 102, 255, 0.3);
+}
+
+.learning-header {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+    padding-bottom: 1rem;
+    border-bottom: 2px solid rgba(0, 102, 255, 0.2);
+}
+
+.learning-header i {
+    font-size: 2.5rem;
+    color: var(--primary-color);
+}
+
+.learning-header h4 {
+    color: #fff;
+    font-size: 1.4rem;
+    font-weight: 700;
+    margin: 0;
+}
+
+.learning-content p {
+    color: rgba(255, 255, 255, 0.85);
+    line-height: 1.7;
+    margin-bottom: 1rem;
+}
+
+.learning-content p strong {
+    color: #fff;
+    font-weight: 700;
+}
+
+.time-estimate {
+    background: rgba(0, 102, 255, 0.08);
+    border: 1px solid rgba(0, 102, 255, 0.3);
+    border-radius: 15px;
+    padding: 1.5rem;
+    margin-top: 1.5rem;
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+}
+
+.time-estimate i {
+    font-size: 2rem;
+    color: var(--primary-color);
+    flex-shrink: 0;
+}
+
+.time-estimate strong {
+    color: #fff;
+    font-size: 1.05rem;
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+.time-estimate p {
+    margin-bottom: 0.5rem;
+}
+
+/* Community Features */
+.community-feature {
+    background: rgba(0, 102, 255, 0.05);
+    border: 2px solid rgba(0, 102, 255, 0.2);
+    border-radius: 15px;
+    padding: 1.25rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+.community-feature:hover {
+    background: rgba(0, 102, 255, 0.1);
+    border-color: var(--primary-color);
+    transform: translateY(-5px);
+    box-shadow: 0 10px 30px rgba(0, 102, 255, 0.3);
+}
+
+.community-feature i {
+    font-size: 2.5rem;
+    color: var(--primary-color);
+    margin-bottom: 1rem;
+}
+
+.community-feature strong {
+    color: #fff;
+    font-size: 1rem;
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+.community-feature span {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 0.85rem;
+}
+
+/* Responsive para estilos de Penpot */
+@media (max-width: 768px) {
+    .timeline-card {
+        padding: 1.5rem;
+    }
+    
+    .timeline-year {
+        font-size: 1rem;
+        padding: 0.4rem 1.2rem;
+    }
+    
+    .use-cases-grid {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+    
+    .use-case-card {
+        padding: 1.5rem;
+    }
+    
+    .use-case-icon {
+        width: 70px;
+        height: 70px;
+    }
+    
+    .use-case-icon i {
+        font-size: 2rem;
+    }
+    
+    .pricing-card {
+        padding: 2rem 1.5rem;
+    }
+    
+    .price {
+        font-size: 3rem;
+    }
+    
+    .learning-card {
+        padding: 1.5rem;
+    }
+    
+    .learning-header {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .learning-header i {
+        font-size: 2rem;
+    }
+    
+    .time-estimate {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .community-feature {
+        padding: 1rem;
+    }
+    
+    .community-feature i {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .timeline-card {
+        padding: 1.25rem;
+    }
+    
+    .timeline-card h5 {
+        font-size: 1.1rem;
+    }
+    
+    .use-case-card {
+        padding: 1.25rem;
+    }
+    
+    .use-case-icon {
+        width: 60px;
+        height: 60px;
+    }
+    
+    .use-case-icon i {
+        font-size: 1.7rem;
+    }
+    
+    .use-case-card h5 {
+        font-size: 1.1rem;
+    }
+    
+    .pricing-card {
+        padding: 1.5rem 1.25rem;
+    }
+    
+    .pricing-header i {
+        font-size: 2.5rem;
+    }
+    
+    .price {
+        font-size: 2.5rem;
+    }
+    
+    .featured-badge {
+        font-size: 0.75rem;
+        padding: 0.35rem 2.5rem;
+    }
+    
+    .learning-card {
+        padding: 1.25rem;
+    }
+    
+    .learning-header h4 {
+        font-size: 1.2rem;
+    }
+    
+    .time-estimate {
+        padding: 1.25rem;
+    }
+    
+    .community-feature {
+        padding: 0.9rem;
+    }
+    
+    .community-feature i {
+        font-size: 1.8rem;
+    }
+    
+    .community-feature strong {
+        font-size: 0.95rem;
+    }
+    
+    .community-feature span {
+        font-size: 0.8rem;
+    }
+}
+/* Video Section para Penpot */
+.video-section {
+    margin-bottom: 3rem;
+}
+
+.video-container {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%; /* Aspect ratio 16:9 */
+    height: 0;
+    overflow: hidden;
+    border-radius: 20px;
+    box-shadow: 0 20px 60px rgba(0, 102, 255, 0.3);
+    border: 3px solid rgba(0, 102, 255, 0.3);
+    background: rgba(0, 0, 0, 0.5);
+    margin-bottom: 1.5rem;
+    transition: all 0.3s ease;
+}
+
+.video-container:hover {
+    border-color: var(--primary-color);
+    box-shadow: 0 25px 70px rgba(0, 102, 255, 0.5);
+    transform: translateY(-5px);
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 17px;
+}
+
+.video-description {
+    text-align: center;
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 1rem;
+    background: rgba(0, 102, 255, 0.05);
+    border: 1px solid rgba(0, 102, 255, 0.2);
+    border-radius: 15px;
+    display: inline-block;
+    width: 100%;
+}
+
+.video-description i {
+    color: var(--primary-color);
+}
+
+/* Responsive para video */
+@media (max-width: 768px) {
+    .video-section {
+        margin-bottom: 2rem;
+    }
+    
+    .video-container {
+        border-width: 2px;
+        border-radius: 15px;
+    }
+    
+    .video-container iframe {
+        border-radius: 13px;
+    }
+    
+    .video-description {
+        font-size: 0.9rem;
+        padding: 0.85rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .video-container {
+        border-radius: 12px;
+        margin-bottom: 1rem;
+    }
+    
+    .video-container iframe {
+        border-radius: 10px;
+    }
+    
+    .video-description {
+        font-size: 0.85rem;
+        padding: 0.75rem;
     }
 }

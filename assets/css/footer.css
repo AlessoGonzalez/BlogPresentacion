@@ -202,17 +202,16 @@ footer hr {
     margin: 2.5rem 0;
 }
 
-/* Copyright */
+/* Copyright - ALTURA REDUCIDA A ~1CM */
 footer p.text-center.mb-0 {
     color: rgba(255, 255, 255, 0.5);
-    font-size: 0.9rem;
+    font-size: 0.85rem;
     letter-spacing: 0.5px;
-    padding: 1.5rem 0;
+    padding: 0.5rem 15px;
     border-top: 1px solid rgba(0, 102, 255, 0.1);
     background: rgba(0, 0, 0, 0.2);
     margin: 0 -15px;
-    padding-left: 15px;
-    padding-right: 15px;
+    line-height: 1;
 }
 
 /* Hover en columnas */
@@ -279,5 +278,10 @@ footer .col-md-4:hover {
     
     footer h5 {
         font-size: 1.1rem;
+    }
+    
+    footer p.text-center.mb-0 {
+        font-size: 0.8rem;
+        padding: 0.4rem 10px;
     }
 }

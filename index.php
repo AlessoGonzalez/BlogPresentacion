@@ -274,6 +274,8 @@
     </div>
 </section>
 
+<!-- Sección de proyectos -->
+
 <!-- Sección Proyectos -->
 <section class="py-5 bg-light" id="proyectos">
     <div class="container">
@@ -449,8 +451,248 @@
                 </div>
             </div>
 
-            <!-- Continúan los demás proyectos... (por espacio, resumo) -->
-            <!-- Agrega aquí los proyectos 7-15 igual que están en tu código original -->
+            <!-- PROYECTO 7: MangezCeci Restaurant -->
+            <div class="col-md-6 col-lg-4" data-aos="fade-up">
+                <div class="card proyecto-card h-100 border-0 shadow-sm">
+                    <div class="proyecto-img-container position-relative overflow-hidden">
+                        <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=800&h=600&fit=crop" 
+                             alt="MangezCeci Restaurant" class="card-img-top proyecto-img">
+                        <span class="proyecto-badge">Restaurant</span>
+                    </div>
+                    <div class="card-body proyecto-body">
+                        <h5 class="card-title proyecto-title">MangezCeci Restaurant</h5>
+                        <p class="card-text proyecto-description">
+                            Sistema de gestión integral para restaurante con módulos de reservas, menú digital y administración de pedidos.
+                        </p>
+                        <div class="proyecto-tech mb-3">
+                            <span class="tech-tag"><i class="fab fa-php"></i> PHP</span>
+                            <span class="tech-tag"><i class="fas fa-database"></i> MySQL</span>
+                            <span class="tech-tag"><i class="fab fa-bootstrap"></i> Bootstrap</span>
+                        </div>
+                        <div class="proyecto-links d-flex gap-2">
+                            <a href="https://github.com/AlessoGonzalez/MangezCeci_Restaurant.git" target="_blank" class="btn btn-github flex-fill">
+                                <i class="fab fa-github me-2"></i>Ver Código
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- PROYECTO 8: GeoRutas Óptimas -->
+            <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="100">
+                <div class="card proyecto-card h-100 border-0 shadow-sm">
+                    <div class="proyecto-img-container position-relative overflow-hidden">
+                        <img src="https://images.unsplash.com/photo-1569336415962-a4bd9f69cd83?w=800&h=600&fit=crop" 
+                             alt="GeoRutas" class="card-img-top proyecto-img">
+                        <span class="proyecto-badge">Logistics</span>
+                    </div>
+                    <div class="card-body proyecto-body">
+                        <h5 class="card-title proyecto-title">GeoRutas Óptimas</h5>
+                        <p class="card-text proyecto-description">
+                            Sistema de optimización de rutas con algoritmos de geolocalización para logística y entregas eficientes.
+                        </p>
+                        <div class="proyecto-tech mb-3">
+                            <span class="tech-tag"><i class="fas fa-route"></i> Algorithms</span>
+                            <span class="tech-tag"><i class="fas fa-map"></i> Google Maps</span>
+                            <span class="tech-tag"><i class="fab fa-python"></i> Python</span>
+                        </div>
+                        <div class="proyecto-links d-flex gap-2">
+                            <a href="https://github.com/christopherpaucar/GeoRutas_-ptimas.git" target="_blank" class="btn btn-github flex-fill">
+                                <i class="fab fa-github me-2"></i>Ver Código
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- PROYECTO 9: Portal Web UTA -->
+            <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="200">
+                <div class="card proyecto-card h-100 border-0 shadow-sm">
+                    <div class="proyecto-img-container position-relative overflow-hidden">
+                        <img src="https://images.unsplash.com/photo-1498243691581-b145c3f54a5a?w=800&h=600&fit=crop" 
+                             alt="UTA Web" class="card-img-top proyecto-img">
+                        <span class="proyecto-badge">Education</span>
+                    </div>
+                    <div class="card-body proyecto-body">
+                        <h5 class="card-title proyecto-title">Portal Web UTA</h5>
+                        <p class="card-text proyecto-description">
+                            Sistema web educativo con gestión de estudiantes, cursos, calificaciones y recursos académicos.
+                        </p>
+                        <div class="proyecto-tech mb-3">
+                            <span class="tech-tag"><i class="fab fa-php"></i> PHP</span>
+                            <span class="tech-tag"><i class="fas fa-database"></i> MySQL</span>
+                            <span class="tech-tag"><i class="fab fa-bootstrap"></i> Bootstrap</span>
+                        </div>
+                        <div class="proyecto-links d-flex gap-2">
+                            <a href="https://github.com/Davidl2002/Uta-Web.git" target="_blank" class="btn btn-github flex-fill">
+                                <i class="fab fa-github me-2"></i>Ver Código
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- PROYECTO 10: Sistema Huellas -->
+            <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="300">
+                <div class="card proyecto-card h-100 border-0 shadow-sm">
+                    <div class="proyecto-img-container position-relative overflow-hidden">
+                        <img src="https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=800&h=600&fit=crop" 
+                             alt="Huellas" class="card-img-top proyecto-img">
+                        <span class="proyecto-badge">Security</span>
+                    </div>
+                    <div class="card-body proyecto-body">
+                        <h5 class="card-title proyecto-title">Sistema Huellas - Control Biométrico</h5>
+                        <p class="card-text proyecto-description">
+                            Interfaz para sistema de control de asistencia biométrico con reportes en tiempo real y gestión de usuarios.
+                        </p>
+                        <div class="proyecto-tech mb-3">
+                            <span class="tech-tag"><i class="fab fa-react"></i> React</span>
+                            <span class="tech-tag"><i class="fab fa-css3"></i> Tailwind</span>
+                            <span class="tech-tag"><i class="fas fa-fingerprint"></i> Biometric</span>
+                        </div>
+                        <div class="proyecto-links d-flex gap-2">
+                            <a href="https://github.com/Davidl2002/Front_Huellas.git" target="_blank" class="btn btn-github flex-fill">
+                                <i class="fab fa-github me-2"></i>Ver Código
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- PROYECTO 11: TaskFlow Backend -->
+            <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="400">
+                <div class="card proyecto-card h-100 border-0 shadow-sm">
+                    <div class="proyecto-img-container position-relative overflow-hidden">
+                        <img src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=800&h=600&fit=crop" 
+                             alt="TaskFlow" class="card-img-top proyecto-img">
+                        <span class="proyecto-badge">Productivity</span>
+                    </div>
+                    <div class="card-body proyecto-body">
+                        <h5 class="card-title proyecto-title">TaskFlow - Gestión de Tareas</h5>
+                        <p class="card-text proyecto-description">
+                            API para sistema de gestión de tareas y proyectos con autenticación y colaboración en tiempo real.
+                        </p>
+                        <div class="proyecto-tech mb-3">
+                            <span class="tech-tag"><i class="fab fa-node-js"></i> Node.js</span>
+                            <span class="tech-tag"><i class="fas fa-database"></i> MongoDB</span>
+                            <span class="tech-tag"><i class="fas fa-tasks"></i> Task Mgmt</span>
+                        </div>
+                        <div class="proyecto-links d-flex gap-2">
+                            <a href="https://github.com/christopherpaucar/taskflow-backend.git" target="_blank" class="btn btn-github flex-fill">
+                                <i class="fab fa-github me-2"></i>Ver Código
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- PROYECTO 12: Rutas Ecuador -->
+            <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="500">
+                <div class="card proyecto-card h-100 border-0 shadow-sm">
+                    <div class="proyecto-img-container position-relative overflow-hidden">
+                        <img src="https://images.unsplash.com/photo-1526778548025-fa2f459cd5c1?w=800&h=600&fit=crop" 
+                             alt="Rutas Ecuador" class="card-img-top proyecto-img">
+                        <span class="proyecto-badge">Tourism</span>
+                    </div>
+                    <div class="card-body proyecto-body">
+                        <h5 class="card-title proyecto-title">Rutas Ecuador</h5>
+                        <p class="card-text proyecto-description">
+                            Plataforma turística interactiva con mapas, rutas y guías de destinos turísticos del Ecuador.
+                        </p>
+                        <div class="proyecto-tech mb-3">
+                            <span class="tech-tag"><i class="fas fa-map-marked-alt"></i> Maps API</span>
+                            <span class="tech-tag"><i class="fab fa-js"></i> JavaScript</span>
+                            <span class="tech-tag"><i class="fab fa-html5"></i> HTML5</span>
+                        </div>
+                        <div class="proyecto-links d-flex gap-2">
+                            <a href="https://github.com/Davidl2002/rutas-ecuador.git" target="_blank" class="btn btn-github flex-fill">
+                                <i class="fab fa-github me-2"></i>Ver Código
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- PROYECTO 13: Menú Digital -->
+            <div class="col-md-6 col-lg-4" data-aos="fade-up">
+                <div class="card proyecto-card h-100 border-0 shadow-sm">
+                    <div class="proyecto-img-container position-relative overflow-hidden">
+                        <img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=800&h=600&fit=crop" 
+                             alt="Menu Comida" class="card-img-top proyecto-img">
+                        <span class="proyecto-badge">Restaurant</span>
+                    </div>
+                    <div class="card-body proyecto-body">
+                        <h5 class="card-title proyecto-title">Menú Digital Interactivo</h5>
+                        <p class="card-text proyecto-description">
+                            Sistema de menú digital para restaurantes con categorías, búsqueda de platillos y carrito de pedidos.
+                        </p>
+                        <div class="proyecto-tech mb-3">
+                            <span class="tech-tag"><i class="fab fa-react"></i> React</span>
+                            <span class="tech-tag"><i class="fab fa-css3"></i> CSS3</span>
+                            <span class="tech-tag"><i class="fas fa-utensils"></i> Food</span>
+                        </div>
+                        <div class="proyecto-links d-flex gap-2">
+                            <a href="https://github.com/Davidl2002/menu_comida.git" target="_blank" class="btn btn-github flex-fill">
+                                <i class="fab fa-github me-2"></i>Ver Código
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- PROYECTO 14: WebMoviles -->
+            <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="100">
+                <div class="card proyecto-card h-100 border-0 shadow-sm">
+                    <div class="proyecto-img-container position-relative overflow-hidden">
+                        <img src="https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=800&h=600&fit=crop" 
+                             alt="WebMoviles" class="card-img-top proyecto-img">
+                        <span class="proyecto-badge">Mobile</span>
+                    </div>
+                    <div class="card-body proyecto-body">
+                        <h5 class="card-title proyecto-title">WebMoviles - Experiencia Móvil</h5>
+                        <p class="card-text proyecto-description">
+                            Aplicación web responsive enfocada en experiencia móvil con diseño adaptativo y optimización de rendimiento.
+                        </p>
+                        <div class="proyecto-tech mb-3">
+                            <span class="tech-tag"><i class="fab fa-angular"></i> Angular</span>
+                            <span class="tech-tag"><i class="fab fa-node-js"></i> Node.js</span>
+                            <span class="tech-tag"><i class="fas fa-mobile-alt"></i> PWA</span>
+                        </div>
+                        <div class="proyecto-links d-flex gap-2">
+                            <a href="https://github.com/jade2803/WebMoviles.git" target="_blank" class="btn btn-github flex-fill">
+                                <i class="fab fa-github me-2"></i>Ver Código
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- PROYECTO 15: MasQueFoto -->
+            <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="200">
+                <div class="card proyecto-card h-100 border-0 shadow-sm">
+                    <div class="proyecto-img-container position-relative overflow-hidden">
+                        <img src="https://images.unsplash.com/photo-1452587925148-ce544e77e70d?w=800&h=600&fit=crop" 
+                             alt="MasQueFoto" class="card-img-top proyecto-img">
+                        <span class="proyecto-badge">Photography</span>
+                    </div>
+                    <div class="card-body proyecto-body">
+                        <h5 class="card-title proyecto-title">MasQueFoto - Estudio Fotográfico</h5>
+                        <p class="card-text proyecto-description">
+                            Plataforma web para estudio fotográfico con galería de portafolio, reservas de sesiones y gestión de clientes.
+                        </p>
+                        <div class="proyecto-tech mb-3">
+                            <span class="tech-tag"><i class="fab fa-html5"></i> HTML5</span>
+                            <span class="tech-tag"><i class="fab fa-css3"></i> CSS3</span>
+                            <span class="tech-tag"><i class="fab fa-js"></i> JavaScript</span>
+                        </div>
+                        <div class="proyecto-links d-flex gap-2">
+                            <a href="https://github.com/AlessoGonzalez/MasQueFoto" target="_blank" class="btn btn-github flex-fill">
+                                <i class="fab fa-github me-2"></i>Ver Código
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
         </div>
     </div>
@@ -1326,7 +1568,7 @@ document.addEventListener('DOMContentLoaded', function() {
             </div>
 
             <!-- Metodología -->
-            <div class="info-section mb-5">
+            <div class="info-section mb-5 text-white">
                 <h3><i class="fas fa-project-diagram me-3"></i>Metodología de Desarrollo</h3>
                 <div class="methodology-content">
                     <div class="scrum-badge">
@@ -2408,6 +2650,23 @@ document.addEventListener('DOMContentLoaded', function() {
                 </div>
             </div>
 
+            <div class="video-section mb-5">
+                <h3 class="section-title">
+                    <i class="fas fa-video"></i>
+                    Daily Meeting SCRUM (Ejemplo)
+                </h3>
+                <div class="video-wrapper" style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;">
+                    <iframe 
+                        src="https://www.youtube.com/embed/WmHtzP5BgG0" 
+                        title="Daily Meeting SCRUM Example" 
+                        frameborder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                        allowfullscreen
+                        style="position:absolute;top:0;left:0;width:100%;height:100%;">
+                    </iframe>
+                </div>
+            </div>
+
             <!-- Conclusiones -->
             <div class="info-section">
                 <h3><i class="fas fa-check-circle me-3"></i>Conclusiones</h3>
@@ -2479,6 +2738,649 @@ document.addEventListener('DOMContentLoaded', function() {
     });
     
     console.log('✅ Modal Herramientas de Planificación inicializado');
+});
+</script>
+
+
+<!-- ========================================
+     MODAL PENPOT
+======================================== -->
+<div id="penpotModal" class="proyecto-detail-modal">
+    <div class="proyecto-detail-modal-overlay"></div>
+    <div class="proyecto-detail-modal-content">
+        <button class="modal-close-btn" type="button" aria-label="Cerrar modal">
+            <i class="fas fa-times"></i>
+        </button>
+        
+        <!-- Header del Modal -->
+        <div class="modal-header-proyecto">
+            <div class="modal-icon-proyecto">
+                <i class="fas fa-palette"></i>
+            </div>
+            <h2 class="modal-title-proyecto">Penpot</h2>
+            <p class="modal-subtitle-proyecto">Herramienta de diseño open source para UI/UX - Alternativa libre y colaborativa</p>
+        </div>
+        
+        <div class="proyecto-detail-content">
+            
+            <!-- Imagen Hero -->
+            <div class="proyecto-hero-image">
+                <img src="https://images.unsplash.com/photo-1561070791-2526d30994b5?w=1400&h=500&fit=crop" 
+                     alt="Penpot Design Tool">
+            </div>
+            <!-- Video Demostración -->
+            <div class="video-section mb-5">
+                <h3 class="section-title">
+                    <i class="fas fa-play-circle"></i>
+                    Video Demostración
+                </h3>
+                <div class="video-container">
+                    <iframe 
+                        src="https://www.youtube.com/embed/ZklAppII2tw" 
+                        title="Penpot Tutorial" 
+                        frameborder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                        allowfullscreen>
+                    </iframe>
+                </div>
+                <p class="video-description">
+                    <i class="fas fa-info-circle me-2"></i>
+                    Tutorial completo sobre cómo usar Penpot para diseño de interfaces
+                </p>
+            </div>
+            <!-- Descripción Principal -->
+            <div class="info-section mb-4">
+                <h3><i class="fas fa-info-circle me-3"></i>¿Qué es Penpot?</h3>
+                <p class="lead-text">
+                    Penpot es una herramienta de diseño de interfaces y prototipado completamente basada en la web. 
+                    Es una alternativa open source que permite crear, compartir y colaborar en proyectos de UI/UX de 
+                    manera ágil y eficiente, sin depender de licencias de pago ni plataformas propietarias.
+                </p>
+                <p class="lead-text">
+                    A diferencia de herramientas como Figma o Adobe XD, Penpot utiliza tecnologías web estándar 
+                    (SVG, HTML y CSS), facilitando la integración directa con flujos de trabajo de desarrollo front-end.
+                </p>
+            </div>
+
+            <!-- Historia y Origen -->
+            <div class="info-section mb-5">
+                <h3><i class="fas fa-history me-3"></i>Historia y Origen</h3>
+                <div class="row g-4">
+                    <div class="col-md-6">
+                        <div class="timeline-card">
+                            <div class="timeline-year">2020</div>
+                            <h5>Nacimiento del Proyecto</h5>
+                            <p>Desarrollado por <strong>Kaleidos</strong>, cooperativa tecnológica en Madrid (España), 
+                            como una iniciativa interna para crear una alternativa abierta a las herramientas de diseño existentes.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="timeline-card">
+                            <div class="timeline-year">2021</div>
+                            <h5>Reconocimiento Internacional</h5>
+                            <p>Tras la adquisición de Figma por Adobe, miles de profesionales buscaron alternativas libres. 
+                            Penpot se consolidó como uno de los proyectos de diseño open source más relevantes a nivel mundial.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Problema y Solución -->
+            <div class="row g-4 mb-5">
+                <div class="col-md-6">
+                    <div class="problem-card">
+                        <div class="card-icon-header">
+                            <i class="fas fa-exclamation-triangle"></i>
+                            <h4>Problemas de las Herramientas Propietarias</h4>
+                        </div>
+                        <ul class="problem-list">
+                            <li><i class="fas fa-times-circle"></i> Licencias de pago restrictivas</li>
+                            <li><i class="fas fa-times-circle"></i> Dependencia de plataformas propietarias</li>
+                            <li><i class="fas fa-times-circle"></i> Falta de control sobre los datos</li>
+                            <li><i class="fas fa-times-circle"></i> Limitaciones de integración con desarrollo</li>
+                            <li><i class="fas fa-times-circle"></i> Poca transparencia en actualizaciones</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="solution-card">
+                        <div class="card-icon-header success">
+                            <i class="fas fa-check-circle"></i>
+                            <h4>La Solución: Penpot</h4>
+                        </div>
+                        <ul class="solution-list">
+                            <li><i class="fas fa-check"></i> 100% gratuito y open source (AGPL)</li>
+                            <li><i class="fas fa-check"></i> Sin dependencia de proveedores</li>
+                            <li><i class="fas fa-check"></i> Autoalojamiento en servidores propios</li>
+                            <li><i class="fas fa-check"></i> Tecnologías web estándar (SVG, CSS)</li>
+                            <li><i class="fas fa-check"></i> Comunidad activa y transparente</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Características Principales -->
+            <div class="features-section mb-5">
+                <h3 class="section-title">
+                    <i class="fas fa-star"></i>
+                    Características Principales
+                </h3>
+                <div class="row g-4">
+                    <div class="col-md-6 col-lg-3">
+                        <div class="feature-card-modern">
+                            <div class="feature-icon-modern">
+                                <i class="fas fa-code-branch"></i>
+                            </div>
+                            <h5>Open Source</h5>
+                            <p>Código abierto bajo licencia AGPL, completamente transparente y modificable</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <div class="feature-card-modern">
+                            <div class="feature-icon-modern">
+                                <i class="fas fa-users"></i>
+                            </div>
+                            <h5>Colaboración Real Time</h5>
+                            <p>Varios usuarios trabajando simultáneamente en el mismo proyecto</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <div class="feature-card-modern">
+                            <div class="feature-icon-modern">
+                                <i class="fas fa-globe"></i>
+                            </div>
+                            <h5>100% Web</h5>
+                            <p>Funciona desde cualquier navegador sin instalación</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <div class="feature-card-modern">
+                            <div class="feature-icon-modern">
+                                <i class="fas fa-project-diagram"></i>
+                            </div>
+                            <h5>Prototipado</h5>
+                            <p>Creación de interacciones y flujos de navegación funcionales</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <div class="feature-card-modern">
+                            <div class="feature-icon-modern">
+                                <i class="fas fa-cubes"></i>
+                            </div>
+                            <h5>Componentes</h5>
+                            <p>Gestión de componentes y bibliotecas reutilizables</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <div class="feature-card-modern">
+                            <div class="feature-icon-modern">
+                                <i class="fas fa-code"></i>
+                            </div>
+                            <h5>Exportación CSS</h5>
+                            <p>Exporta recursos y estilos directamente en CSS</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <div class="feature-card-modern">
+                            <div class="feature-icon-modern">
+                                <i class="fas fa-moon"></i>
+                            </div>
+                            <h5>Modo Oscuro</h5>
+                            <p>Interfaz personalizable según preferencias visuales</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <div class="feature-card-modern">
+                            <div class="feature-icon-modern">
+                                <i class="fas fa-server"></i>
+                            </div>
+                            <h5>Autoalojable</h5>
+                            <p>Instala Penpot en tu propio servidor para control total</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Comparativa con Otras Herramientas -->
+            <div class="comparison-section mb-5">
+                <h3 class="section-title">
+                    <i class="fas fa-balance-scale"></i>
+                    Comparativa con Otras Herramientas
+                </h3>
+                <div class="table-responsive">
+                    <table class="comparison-table">
+                        <thead>
+                            <tr>
+                                <th>Característica</th>
+                                <th><i class="fas fa-palette"></i> Penpot</th>
+                                <th><i class="fab fa-figma"></i> Figma</th>
+                                <th><i class="fab fa-adobe"></i> Adobe XD</th>
+                                <th>Sketch</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><strong>Licencia</strong></td>
+                                <td><span class="badge-success">Gratis (Open Source)</span></td>
+                                <td>Privativa (plan limitado)</td>
+                                <td>Privativa</td>
+                                <td>Privativa (solo macOS)</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Colaboración Real Time</strong></td>
+                                <td><i class="fas fa-check text-success"></i></td>
+                                <td><i class="fas fa-check text-success"></i></td>
+                                <td><i class="fas fa-check text-warning"></i> Parcial</td>
+                                <td><i class="fas fa-check text-warning"></i> Parcial</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Plataforma</strong></td>
+                                <td>Web y autoalojable</td>
+                                <td>Web / Escritorio</td>
+                                <td>Win y macOS</td>
+                                <td>Solo macOS</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Propiedad de Datos</strong></td>
+                                <td><span class="badge-success">Usuario (servidor propio)</span></td>
+                                <td>Nube de Figma</td>
+                                <td>Nube de Adobe</td>
+                                <td>Nube de Sketch</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Integración Dev</strong></td>
+                                <td><i class="fas fa-check text-success"></i> Plugins y API</td>
+                                <td><i class="fas fa-check text-success"></i> Amplia</td>
+                                <td><i class="fas fa-check text-warning"></i> Limitadas</td>
+                                <td><i class="fas fa-check text-warning"></i> Algunas</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Costo</strong></td>
+                                <td><span class="badge-success">$0</span></td>
+                                <td>Pago mensual</td>
+                                <td>Suscripción Adobe</td>
+                                <td>Pago único o suscripción</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- Ventajas y Desventajas -->
+            <div class="pros-cons-section mb-5">
+                <h3 class="section-title">
+                    <i class="fas fa-list-check"></i>
+                    Ventajas y Desventajas
+                </h3>
+                <div class="row g-4">
+                    <div class="col-lg-6">
+                        <div class="tool-analysis-card">
+                            <div class="tool-header">
+                                <i class="fas fa-thumbs-up"></i>
+                                <h4>Ventajas</h4>
+                            </div>
+                            <ul class="pros-section">
+                                <li><i class="fas fa-check"></i> Completamente gratuito sin licencias comerciales</li>
+                                <li><i class="fas fa-check"></i> Trabajo colaborativo en tiempo real a distancia</li>
+                                <li><i class="fas fa-check"></i> Comunidad activa en constante crecimiento</li>
+                                <li><i class="fas fa-check"></i> Independencia tecnológica y control de datos</li>
+                                <li><i class="fas fa-check"></i> Tecnologías web estándar (SVG, HTML, CSS)</li>
+                                <li><i class="fas fa-check"></i> Instalable en servidor propio (self-hosted)</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="tool-analysis-card">
+                            <div class="tool-header">
+                                <i class="fas fa-thumbs-down"></i>
+                                <h4>Desventajas</h4>
+                            </div>
+                            <ul class="cons-section">
+                                <li><i class="fas fa-times"></i> Menor madurez que Figma o Adobe XD</li>
+                                <li><i class="fas fa-times"></i> Número limitado de plugins y extensiones</li>
+                                <li><i class="fas fa-times"></i> Requiere buena conexión a internet (al ser web)</li>
+                                <li><i class="fas fa-times"></i> Curva de aprendizaje si vienes de otras herramientas</li>
+                                <li><i class="fas fa-times"></i> Ecosistema de plugins más pequeño</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Casos de Uso -->
+            <div class="info-section mb-5">
+                <h3><i class="fas fa-lightbulb me-3"></i>Casos de Uso</h3>
+                <div class="use-cases-grid">
+                    <div class="use-case-card">
+                        <div class="use-case-icon">
+                            <i class="fas fa-desktop"></i>
+                        </div>
+                        <h5>Diseño de Interfaces (UI)</h5>
+                        <p>Crea pantallas completas, botones, menús e íconos con coherencia visual. 
+                        Ejemplo: Diseño de aplicación bancaria con pantallas de login y panel principal.</p>
+                    </div>
+                    <div class="use-case-card">
+                        <div class="use-case-icon">
+                            <i class="fas fa-user-friends"></i>
+                        </div>
+                        <h5>Experiencia de Usuario (UX)</h5>
+                        <p>Facilita la creación de flujos de navegación y análisis de interacción. 
+                        Ejemplo: Recorrido desde página principal hasta compra final en e-commerce.</p>
+                    </div>
+                    <div class="use-case-card">
+                        <div class="use-case-icon">
+                            <i class="fas fa-handshake"></i>
+                        </div>
+                        <h5>Colaboración Diseño-Desarrollo</h5>
+                        <p>Los diseños se exportan a SVG o CSS para integración directa en proyectos web. 
+                        El diseñador crea en Penpot, el dev implementa en HTML/CSS.</p>
+                    </div>
+                    <div class="use-case-card">
+                        <div class="use-case-icon">
+                            <i class="fas fa-graduation-cap"></i>
+                        </div>
+                        <h5>Educación y Academia</h5>
+                        <p>Ideal para enseñanza de diseño UI/UX sin costos de licencia. 
+                        Ejemplo: Universidades que enseñan diseño digital usando Penpot.</p>
+                    </div>
+                    <div class="use-case-card">
+                        <div class="use-case-icon">
+                            <i class="fas fa-rocket"></i>
+                        </div>
+                        <h5>Startups y Open Source</h5>
+                        <p>Permite independencia tecnológica y autoalojamiento. 
+                        Ejemplo: Startup instala Penpot en servidor interno para diseñar su app.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Planes Disponibles -->
+            <div class="pricing-section mb-5">
+                <h3 class="section-title">
+                    <i class="fas fa-dollar-sign"></i>
+                    Planes Disponibles
+                </h3>
+                <div class="row g-4">
+                    <div class="col-md-4">
+                        <div class="pricing-card">
+                            <div class="pricing-header">
+                                <i class="fas fa-user"></i>
+                                <h4>Profesional</h4>
+                                <div class="price">$0</div>
+                                <span class="price-label">Gratis</span>
+                            </div>
+                            <ul class="pricing-features">
+                                <li><i class="fas fa-check"></i> Hasta 8 miembros del equipo</li>
+                                <li><i class="fas fa-check"></i> 10 GB de almacenamiento</li>
+                                <li><i class="fas fa-check"></i> 7 días de versiones guardadas</li>
+                                <li><i class="fas fa-check"></i> Colaboración en tiempo real</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="pricing-card featured">
+                            <div class="featured-badge">Popular</div>
+                            <div class="pricing-header">
+                                <i class="fas fa-users"></i>
+                                <h4>Ilimitado</h4>
+                                <div class="price">$7</div>
+                                <span class="price-label">por editor/mes</span>
+                            </div>
+                            <ul class="pricing-features">
+                                <li><i class="fas fa-check"></i> Miembros ilimitados</li>
+                                <li><i class="fas fa-check"></i> 25 GB de almacenamiento</li>
+                                <li><i class="fas fa-check"></i> 30 días de versiones</li>
+                                <li><i class="fas fa-check"></i> Recuperación de archivos</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="pricing-card">
+                            <div class="pricing-header">
+                                <i class="fas fa-building"></i>
+                                <h4>Empresa</h4>
+                                <div class="price">$950</div>
+                                <span class="price-label">por org/mes</span>
+                            </div>
+                            <ul class="pricing-features">
+                                <li><i class="fas fa-check"></i> Almacenamiento ilimitado</li>
+                                <li><i class="fas fa-check"></i> 90 días de versiones</li>
+                                <li><i class="fas fa-check"></i> Facturación fija</li>
+                                <li><i class="fas fa-check"></i> Soporte prioritario</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Curva de Aprendizaje -->
+            <div class="learning-section mb-5">
+                <h3 class="section-title">
+                    <i class="fas fa-chart-line"></i>
+                    Curva de Aprendizaje
+                </h3>
+                <div class="row g-4">
+                    <div class="col-md-6">
+                        <div class="learning-card">
+                            <div class="learning-header">
+                                <i class="fas fa-paint-brush"></i>
+                                <h4>Para Diseñadores</h4>
+                            </div>
+                            <div class="learning-content">
+                                <p><strong>Interfaz similar a Figma/Adobe XD:</strong> Facilita la adaptación inicial para diseñadores acostumbrados a estas herramientas.</p>
+                                <p><strong>Atajos y gestos distintos:</strong> Algunos comandos no son idénticos, puede haber fricción inicial.</p>
+                                <div class="time-estimate">
+                                    <i class="fas fa-clock"></i>
+                                    <div>
+                                        <strong>Tiempo de adaptación:</strong>
+                                        <p>Con experiencia previa: <span class="badge-success">Días a semanas</span></p>
+                                        <p>Principiantes: <span class="badge-warning">Semanas a meses</span></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="learning-card">
+                            <div class="learning-header">
+                                <i class="fas fa-code"></i>
+                                <h4>Para Desarrolladores</h4>
+                            </div>
+                            <div class="learning-content">
+                                <p><strong>Estructura basada en estándares:</strong> Trabajar con SVG y CSS permite que el modelo mental sea más técnico y compatible con desarrollo web.</p>
+                                <p><strong>Flex Layout (similar a Flexbox):</strong> Facilita adaptación a desarrolladores familiarizados con Flexbox CSS.</p>
+                                <div class="time-estimate">
+                                    <i class="fas fa-rocket"></i>
+                                    <div>
+                                        <strong>Ventaja clave:</strong>
+                                        <p>Curva más suave para devs que dominan HTML/CSS, fomenta trabajo conjunto con diseñadores.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Comunidad -->
+            <div class="info-section mb-5">
+                <h3><i class="fas fa-users-cog me-3"></i>Comunidad y Ecosistema</h3>
+                <p class="lead-text mb-4">
+                    Penpot cuenta con una comunidad global muy activa que impulsa su desarrollo continuo.
+                </p>
+                <div class="row g-3">
+                    <div class="col-md-6 col-lg-4">
+                        <div class="community-feature">
+                            <i class="fab fa-discord"></i>
+                            <strong>Foros y Discord</strong>
+                            <span>Soporte comunitario activo</span>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="community-feature">
+                            <i class="fas fa-puzzle-piece"></i>
+                            <strong>Plugins</strong>
+                            <span>Exportadores, iconos, componentes</span>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="community-feature">
+                            <i class="fab fa-github"></i>
+                            <strong>GitHub</strong>
+                            <span>Contribuciones y CI/CD</span>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="community-feature">
+                            <i class="fas fa-book"></i>
+                            <strong>Documentación</strong>
+                            <span>Abierta y multiidioma</span>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="community-feature">
+                            <i class="fas fa-calendar-alt"></i>
+                            <strong>Eventos</strong>
+                            <span>Talleres y charlas</span>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="community-feature">
+                            <i class="fas fa-language"></i>
+                            <strong>Global</strong>
+                            <span>Comunidad internacional</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Equipo -->
+            <div class="team-section mb-5">
+                <h3 class="section-title">
+                    <i class="fas fa-users-cog"></i>
+                    Equipo de Desarrollo
+                </h3>
+                <div class="team-grid">
+                    <div class="team-member">
+                        <img src="images/joel.jpeg" alt="Joel Espinoza" style="width:90px;height:90px;border-radius:50%;object-fit:cover;">
+                        <strong>Joel Espinoza</strong>
+                        <span>Full Stack Developer</span>
+                    </div>
+                    <div class="team-member">
+                        <img src="images/alesso.jpeg" alt="Alessandro González" style="width:90px;height:90px;border-radius:50%;object-fit:cover;">
+                        <strong>Alessandro González</strong>
+                        <span>Full Stack Developer</span>
+                    </div>
+                    <div class="team-member">
+                        <img src="images/david.jpeg" alt="David López" style="width:90px;height:90px;border-radius:50%;object-fit:cover;">
+                        <strong>David López</strong>
+                        <span>Frontend Developer</span>
+                    </div>
+                    <div class="team-member">
+                        <img src="images/cris.jpeg" alt="Christopher Paucar" style="width:90px;height:90px;border-radius:50%;object-fit:cover;">
+                        <strong>Christopher Paucar</strong>
+                        <span>Backend Developer</span>
+                    </div>
+                    <div class="team-member">
+                        <img src="images/jade.jpeg" alt="Jade Ramírez" style="width:90px;height:90px;border-radius:50%;object-fit:cover;">
+                        <strong>Jade Ramírez</strong>
+                        <span>Mobile Developer</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Conclusiones -->
+            <div class="info-section">
+                <h3><i class="fas fa-check-circle me-3"></i>Conclusiones</h3>
+                <p class="lead-text">
+                    Penpot se consolida como una alternativa sólida y libre dentro del ecosistema de herramientas de diseño UI/UX. 
+                    Su enfoque colaborativo, compatibilidad con tecnologías web y filosofía open source la posicionan como una opción 
+                    viable frente a plataformas comerciales.
+                </p>
+                <p class="lead-text">
+                    El diseño de calidad no depende de herramientas de pago, sino del trabajo colaborativo, la creatividad y la innovación abierta. 
+                    Penpot demuestra que es posible crear soluciones profesionales sin depender de licencias privativas.
+                </p>
+            </div>
+
+            <!-- Enlaces y Recursos -->
+            <div class="resources-section mt-5">
+                <h3 class="section-title">
+                    <i class="fas fa-link"></i>
+                    Recursos del Proyecto
+                </h3>
+                <div class="resource-buttons">
+                    <a href="https://penpot.app" target="_blank" class="resource-btn blog">
+                        <i class="fas fa-globe"></i>
+                        <span>Sitio Oficial de Penpot</span>
+                    </a>
+                    <a href="https://help.penpot.app/" target="_blank" class="resource-btn presentation">
+                        <i class="fas fa-book"></i>
+                        <span>Documentación Oficial</span>
+                    </a>
+                    <a href="https://www.canva.com/design/DAG0gYwEDHM/4h_ZT1XhZHhjEvTHrVCQHA/view" target="_blank" class="resource-btn presentation">
+                        <i class="fas fa-presentation"></i>
+                        <span>Ver Presentación</span>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<script>
+// ========================================
+// MODAL PENPOT
+// ========================================
+document.addEventListener('DOMContentLoaded', function() {
+    const penpotModal = document.getElementById('penpotModal');
+    const modalOverlay = penpotModal?.querySelector('.proyecto-detail-modal-overlay');
+    const modalCloseBtn = penpotModal?.querySelector('.modal-close-btn');
+    
+    // Abrir modal
+    function openPenpotModal(e) {
+        if (e) e.preventDefault();
+        if (penpotModal) {
+            penpotModal.classList.add('active');
+            document.body.style.overflow = 'hidden';
+        }
+    }
+    
+    // Cerrar modal
+    function closePenpotModal() {
+        if (penpotModal) {
+            penpotModal.classList.remove('active');
+            document.body.style.overflow = 'auto';
+        }
+    }
+    
+    // Event listener para el enlace del header
+    const penpotLink = document.getElementById('openPenpotModal');
+    if (penpotLink) {
+        penpotLink.addEventListener('click', openPenpotModal);
+    }
+    
+    // Cerrar con overlay
+    modalOverlay?.addEventListener('click', closePenpotModal);
+    
+    // Cerrar con botón X
+    modalCloseBtn?.addEventListener('click', closePenpotModal);
+    
+    // Cerrar con ESC
+    document.addEventListener('keydown', function(e) {
+        if (e.key === 'Escape' && penpotModal?.classList.contains('active')) {
+            closePenpotModal();
+        }
+    });
+    
+    // Prevenir cierre al hacer clic dentro
+    const modalContent = penpotModal?.querySelector('.proyecto-detail-modal-content');
+    modalContent?.addEventListener('click', function(e) {
+        e.stopPropagation();
+    });
+    
+    console.log('✅ Modal Penpot inicializado');
 });
 </script>
 
