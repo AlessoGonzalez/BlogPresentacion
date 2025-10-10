@@ -189,7 +189,7 @@
 <section class="py-5 testimonials-section" id="testimonios">
     <div class="container">
         <div class="text-center mb-5">
-            <h2 class="fw-bold" data-aos="fade-up">Lo Que Dicen Nuestros Clientes</h2>
+            <h2 class="fw-bold" data-aos="fade-up">Testimonios de Nuestros Clientes</h2>
             <p class="text-muted" data-aos="fade-up" data-aos-delay="100">
                 La satisfacción de nuestros clientes es nuestra mejor carta de presentación
             </p>
@@ -211,7 +211,7 @@
                     </p>
                     <div class="testimonial-author">
                         <div class="author-avatar">
-                            <i class="fas fa-user"></i>
+                            <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="María González" style="width:40px;height:40px;border-radius:50%;object-fit:cover;">
                         </div>
                         <div class="author-info">
                             <h6 class="author-name">María González</h6>
@@ -236,7 +236,7 @@
                     </p>
                     <div class="testimonial-author">
                         <div class="author-avatar">
-                            <i class="fas fa-user"></i>
+                            <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Carlos Mendoza" style="width:40px;height:40px;border-radius:50%;object-fit:cover;">
                         </div>
                         <div class="author-info">
                             <h6 class="author-name">Carlos Mendoza</h6>
@@ -261,7 +261,7 @@
                     </p>
                     <div class="testimonial-author">
                         <div class="author-avatar">
-                            <i class="fas fa-user"></i>
+                            <img src="https://randomuser.me/api/portraits/women/68.jpg" alt="Ana Rodríguez" style="width:40px;height:40px;border-radius:50%;object-fit:cover;">
                         </div>
                         <div class="author-info">
                             <h6 class="author-name">Ana Rodríguez</h6>
@@ -456,7 +456,6 @@
     </div>
 </section>
 
-<!-- Sección Equipo -->
 <!-- Sección Equipo -->
 <section class="py-5" id="equipo">
     <div class="container">
@@ -870,7 +869,6 @@ function mostrarMensajeModal(mensaje, tipo) {
 
 <!-- ========================================
      MODAL FLOTANTE TECH LAB
-     Agregar antes del cierre de </body> en index.php
 ======================================== -->
 <div id="techLabModal" class="tech-lab-modal">
     <div class="tech-lab-modal-overlay"></div>
@@ -1041,8 +1039,6 @@ document.addEventListener('DOMContentLoaded', function() {
 
 <!-- ========================================
      MODAL SISTEMA DE PASAJES INTERPROVINCIALES
-     Agregar antes del cierre de </body> en index.php
-     (después del modal de Tech Lab)
 ======================================== -->
 <div id="pasajesModal" class="proyecto-detail-modal">
     <div class="proyecto-detail-modal-overlay"></div>
@@ -1107,7 +1103,7 @@ document.addEventListener('DOMContentLoaded', function() {
                             <li><i class="fas fa-check"></i> Validación con código QR</li>
                             <li><i class="fas fa-check"></i> Panel de administración centralizado</li>
                             <li><i class="fas fa-check"></i> Pagos seguros con PayPal</li>
-                        </ul>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -1367,27 +1363,27 @@ document.addEventListener('DOMContentLoaded', function() {
                 </h3>
                 <div class="team-grid">
                     <div class="team-member">
-                        <i class="fas fa-user-circle"></i>
+                        <img src="images/joel.jpeg" alt="Joel Espinoza" style="width:90px;height:90px;border-radius:50%;object-fit:cover;">
                         <strong>Joel Espinoza</strong>
                         <span>Full Stack Developer</span>
                     </div>
                     <div class="team-member">
-                        <i class="fas fa-user-circle"></i>
+                        <img src="images/alesso.jpeg" alt="Alessandro González" style="width:90px;height:90px;border-radius:50%;object-fit:cover;">
                         <strong>Alessandro González</strong>
                         <span>Full Stack Developer</span>
                     </div>
                     <div class="team-member">
-                        <i class="fas fa-user-circle"></i>
+                        <img src="images/david.jpeg" alt="David López" style="width:90px;height:90px;border-radius:50%;object-fit:cover;">
                         <strong>David López</strong>
                         <span>Frontend Developer</span>
                     </div>
                     <div class="team-member">
-                        <i class="fas fa-user-circle"></i>
+                        <img src="images/cris.jpeg" alt="Christopher Paucar" style="width:90px;height:90px;border-radius:50%;object-fit:cover;">
                         <strong>Christopher Paucar</strong>
                         <span>Backend Developer</span>
                     </div>
                     <div class="team-member">
-                        <i class="fas fa-user-circle"></i>
+                        <img src="images/jade.jpeg" alt="Jade Ramírez" style="width:90px;height:90px;border-radius:50%;object-fit:cover;">
                         <strong>Jade Ramírez</strong>
                         <span>Mobile Developer</span>
                     </div>
@@ -1548,7 +1544,7 @@ document.addEventListener('DOMContentLoaded', function() {
                             <li><i class="fas fa-check"></i> Facilidad para reutilizar componentes</li>
                             <li><i class="fas fa-check"></i> Mejora en coordinación de equipos</li>
                             <li><i class="fas fa-check"></i> Mayor control mediante métricas y versiones</li>
-                        </ul>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -1889,46 +1885,37 @@ document.addEventListener('DOMContentLoaded', function() {
                 </div>
             </div>
 
-            <!-- Equipo de Investigación -->
+            <!-- Equipo -->
             <div class="team-section mb-5">
                 <h3 class="section-title">
                     <i class="fas fa-users-cog"></i>
-                    Equipo de Investigación
+                    Equipo de Desarrollo
                 </h3>
-                <div class="research-info mb-4">
-                    <div class="university-badge">
-                        <i class="fas fa-university"></i>
-                        <div>
-                            <strong>Universidad Técnica de Ambato</strong>
-                            <span>Facultad de Ingeniería en Sistemas, Electrónica e Industrial</span>
-                        </div>
-                    </div>
-                </div>
                 <div class="team-grid">
                     <div class="team-member">
-                        <i class="fas fa-user-circle"></i>
+                        <img src="images/joel.jpeg" alt="Joel Espinoza" style="width:90px;height:90px;border-radius:50%;object-fit:cover;">
                         <strong>Joel Espinoza</strong>
-                        <span>Investigador</span>
+                        <span>Full Stack Developer</span>
                     </div>
                     <div class="team-member">
-                        <i class="fas fa-user-circle"></i>
+                        <img src="images/alesso.jpeg" alt="Alessandro González" style="width:90px;height:90px;border-radius:50%;object-fit:cover;">
                         <strong>Alessandro González</strong>
-                        <span>Investigador</span>
+                        <span>Full Stack Developer</span>
                     </div>
                     <div class="team-member">
-                        <i class="fas fa-user-circle"></i>
+                        <img src="images/david.jpeg" alt="David López" style="width:90px;height:90px;border-radius:50%;object-fit:cover;">
                         <strong>David López</strong>
-                        <span>Investigador</span>
+                        <span>Frontend Developer</span>
                     </div>
                     <div class="team-member">
-                        <i class="fas fa-user-circle"></i>
+                        <img src="images/cris.jpeg" alt="Christopher Paucar" style="width:90px;height:90px;border-radius:50%;object-fit:cover;">
                         <strong>Christopher Paucar</strong>
-                        <span>Investigador</span>
+                        <span>Backend Developer</span>
                     </div>
                     <div class="team-member">
-                        <i class="fas fa-user-circle"></i>
+                        <img src="images/jade.jpeg" alt="Jade Ramírez" style="width:90px;height:90px;border-radius:50%;object-fit:cover;">
                         <strong>Jade Ramírez</strong>
-                        <span>Investigadora</span>
+                        <span>Mobile Developer</span>
                     </div>
                 </div>
             </div>
@@ -2386,53 +2373,38 @@ document.addEventListener('DOMContentLoaded', function() {
                 </div>
             </div>
 
-            <!-- Equipo de Investigación -->
+            <!-- Equipo -->
             <div class="team-section mb-5">
                 <h3 class="section-title">
                     <i class="fas fa-users-cog"></i>
-                    Equipo de Investigación
+                    Equipo de Desarrollo
                 </h3>
-                <div class="research-info mb-4">
-                    <div class="university-badge">
-                        <i class="fas fa-university"></i>
-                        <div>
-                            <strong>Universidad Técnica de Ambato</strong>
-                            <span>Facultad de Ingeniería en Sistemas, Electrónica e Industrial</span>
-                        </div>
-                    </div>
-                </div>
                 <div class="team-grid">
                     <div class="team-member">
-                        <i class="fas fa-user-circle"></i>
-                        <strong>Esteban David López Núñez</strong>
-                        <span>Investigador</span>
+                        <img src="images/joel.jpeg" alt="Joel Espinoza" style="width:90px;height:90px;border-radius:50%;object-fit:cover;">
+                        <strong>Joel Espinoza</strong>
+                        <span>Full Stack Developer</span>
                     </div>
                     <div class="team-member">
-                        <i class="fas fa-user-circle"></i>
-                        <strong>Christopher Eduardo Paucar Manzao</strong>
-                        <span>Investigador</span>
+                        <img src="images/alesso.jpeg" alt="Alessandro González" style="width:90px;height:90px;border-radius:50%;object-fit:cover;">
+                        <strong>Alessandro González</strong>
+                        <span>Full Stack Developer</span>
                     </div>
                     <div class="team-member">
-                        <i class="fas fa-user-circle"></i>
-                        <strong>Jordy Joel Espinoza Lata</strong>
-                        <span>Investigador</span>
+                        <img src="images/david.jpeg" alt="David López" style="width:90px;height:90px;border-radius:50%;object-fit:cover;">
+                        <strong>David López</strong>
+                        <span>Frontend Developer</span>
                     </div>
                     <div class="team-member">
-                        <i class="fas fa-user-circle"></i>
-                        <strong>Alessandro Marcelo González López</strong>
-                        <span>Investigador</span>
+                        <img src="images/cris.jpeg" alt="Christopher Paucar" style="width:90px;height:90px;border-radius:50%;object-fit:cover;">
+                        <strong>Christopher Paucar</strong>
+                        <span>Backend Developer</span>
                     </div>
                     <div class="team-member">
-                        <i class="fas fa-user-circle"></i>
-                        <strong>Jade Yadira Ramírez Moreta</strong>
-                        <span>Investigador</span>
+                        <img src="images/jade.jpeg" alt="Jade Ramírez" style="width:90px;height:90px;border-radius:50%;object-fit:cover;">
+                        <strong>Jade Ramírez</strong>
+                        <span>Mobile Developer</span>
                     </div>
-                </div>
-                <div class="mt-3 text-center">
-                    <p style="color: rgba(255,255,255,0.7); font-size: 0.9rem;">
-                        <i class="fas fa-chalkboard-teacher me-2"></i>
-                        <strong>Docente:</strong> Ing. MSc. Santiago David Jara Moya
-                    </p>
                 </div>
             </div>
 
