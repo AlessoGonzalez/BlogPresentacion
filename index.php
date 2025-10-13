@@ -2776,12 +2776,13 @@ document.addEventListener('DOMContentLoaded', function() {
                 </h3>
                 <div class="video-container">
                     <iframe 
-                        src="https://utaedu-my.sharepoint.com/personal/elopez5023_uta_edu_ec/_layouts/15/stream.aspx?id=%2Fpersonal%2Felopez5023_uta_edu_ec%2FDocuments%2FTutorial%20de%20PENPOT%2Emp4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E56cb7e04-f38f-4f1e-a203-a96fff489ee7" 
-                        title="Penpot Tutorial" 
-                        frameborder="0" 
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-                        allowfullscreen>
+                    src="https://drive.google.com/file/d/1MlzVksW5Eoou_GwZTdXkFGtgJHvRjUH_/preview"
+                    title="Penpot Tutorial"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen>
                     </iframe>
+
                 </div>
                 <p class="video-description">
                     <i class="fas fa-info-circle me-2"></i>
