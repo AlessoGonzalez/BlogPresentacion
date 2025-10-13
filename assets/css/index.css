@@ -3799,3 +3799,489 @@ body {
         padding: 0.75rem;
     }
 }
+/* ========================================
+   ESTILOS ADICIONALES PARA MODAL MOVIPASS
+======================================== */
+
+/* Fases del Proyecto - Timeline Cards Mejorado */
+.phases-section .timeline-card {
+    position: relative;
+    overflow: hidden;
+}
+
+.phases-section .timeline-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, 
+        transparent, 
+        rgba(0, 102, 255, 0.1), 
+        transparent
+    );
+    transition: left 0.6s ease;
+}
+
+.phases-section .timeline-card:hover::before {
+    left: 100%;
+}
+
+/* Metodología Content - Mejoras visuales */
+.methodology-content {
+    background: linear-gradient(135deg, 
+        rgba(0, 102, 255, 0.08) 0%, 
+        rgba(0, 102, 255, 0.03) 100%
+    );
+    border-radius: 20px;
+    padding: 2rem;
+}
+
+.methodology-content .lead-text {
+    position: relative;
+    padding-left: 1.5rem;
+}
+
+.methodology-content .lead-text::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 4px;
+    background: linear-gradient(180deg, 
+        var(--primary-color) 0%, 
+        #0052cc 100%
+    );
+    border-radius: 2px;
+}
+
+/* Sprint Info - Estadísticas mejoradas */
+.sprint-info {
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+    padding: 2rem;
+    margin-top: 1.5rem;
+}
+
+.sprint-stat {
+    position: relative;
+}
+
+.sprint-stat::after {
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 40px;
+    height: 3px;
+    background: var(--primary-color);
+    border-radius: 2px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.sprint-stat:hover::after {
+    opacity: 1;
+}
+
+.sprint-stat h4 {
+    background: linear-gradient(135deg, 
+        var(--primary-color) 0%, 
+        #00d4ff 100%
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+/* Team Member Cards - Animación de imágenes */
+.team-member {
+    position: relative;
+}
+
+.team-member img {
+    transition: all 0.4s ease;
+    border: 3px solid rgba(0, 102, 255, 0.3);
+    box-shadow: 0 5px 20px rgba(0, 102, 255, 0.2);
+}
+
+.team-member:hover img {
+    transform: scale(1.05);
+    border-color: var(--primary-color);
+    box-shadow: 0 10px 30px rgba(0, 102, 255, 0.5);
+}
+
+/* Resource Buttons - Mejoras de interactividad */
+.resource-btn {
+    position: relative;
+    overflow: hidden;
+}
+
+.resource-btn::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 0;
+    height: 0;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.1);
+    transform: translate(-50%, -50%);
+    transition: width 0.6s ease, height 0.6s ease;
+}
+
+.resource-btn:hover::before {
+    width: 300px;
+    height: 300px;
+}
+
+.resource-btn span {
+    position: relative;
+    z-index: 1;
+}
+
+.resource-btn i {
+    position: relative;
+    z-index: 1;
+    transition: transform 0.3s ease;
+}
+
+.resource-btn:hover i {
+    transform: scale(1.2) rotate(5deg);
+}
+
+/* Colores específicos para cada tipo de recurso */
+.resource-btn.blog {
+    background: linear-gradient(135deg, 
+        rgba(0, 102, 255, 0.1) 0%, 
+        rgba(0, 102, 255, 0.05) 100%
+    );
+}
+
+.resource-btn.blog:hover {
+    background: linear-gradient(135deg, 
+        var(--primary-color) 0%, 
+        #0052cc 100%
+    );
+    box-shadow: 0 10px 40px rgba(0, 102, 255, 0.5);
+}
+
+.resource-btn.presentation {
+    background: linear-gradient(135deg, 
+        rgba(138, 43, 226, 0.1) 0%, 
+        rgba(138, 43, 226, 0.05) 100%
+    );
+}
+
+.resource-btn.presentation:hover {
+    background: linear-gradient(135deg, 
+        #8a2be2 0%, 
+        #6a1bb2 100%
+    );
+    box-shadow: 0 10px 40px rgba(138, 43, 226, 0.5);
+}
+
+/* Animación para badges de proyecto */
+@keyframes badgePulse {
+    0%, 100% {
+        transform: scale(1);
+        box-shadow: 0 0 0 0 rgba(0, 102, 255, 0.7);
+    }
+    50% {
+        transform: scale(1.05);
+        box-shadow: 0 0 0 10px rgba(0, 102, 255, 0);
+    }
+}
+
+.scrum-badge {
+    animation: badgePulse 2s ease-in-out infinite;
+}
+
+/* Hover effects para feature cards */
+.feature-card-modern::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(135deg, 
+        rgba(0, 102, 255, 0.1) 0%, 
+        transparent 50%, 
+        rgba(0, 102, 255, 0.1) 100%
+    );
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    border-radius: 20px;
+    pointer-events: none;
+}
+
+.feature-card-modern:hover::before {
+    opacity: 1;
+}
+
+/* User Type Card - Efecto de profundidad */
+.user-type-card {
+    position: relative;
+    z-index: 1;
+}
+
+.user-type-card::after {
+    content: '';
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    right: -10px;
+    bottom: -10px;
+    background: linear-gradient(135deg, 
+        rgba(0, 102, 255, 0.1) 0%, 
+        transparent 100%
+    );
+    border-radius: 20px;
+    z-index: -1;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.user-type-card:hover::after {
+    opacity: 1;
+}
+
+/* Benefit Card - Línea decorativa */
+.benefit-card {
+    position: relative;
+    padding-left: 2rem;
+}
+
+.benefit-card::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 4px;
+    background: linear-gradient(180deg, 
+        var(--primary-color) 0%, 
+        transparent 100%
+    );
+    border-radius: 2px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.benefit-card:hover::before {
+    opacity: 1;
+}
+
+/* Tech Item - Efecto de brillo */
+.tech-item {
+    position: relative;
+}
+
+.tech-item::after {
+    content: '';
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    right: -2px;
+    bottom: -2px;
+    background: linear-gradient(45deg, 
+        var(--primary-color), 
+        #00d4ff, 
+        var(--primary-color)
+    );
+    border-radius: 15px;
+    opacity: 0;
+    z-index: -1;
+    animation: techGlow 3s linear infinite;
+    transition: opacity 0.3s ease;
+}
+
+.tech-item:hover::after {
+    opacity: 0.3;
+}
+
+@keyframes techGlow {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+/* Animación de entrada para el modal */
+@keyframes movipassModalEnter {
+    from {
+        opacity: 0;
+        transform: scale(0.9) translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1) translateY(0);
+    }
+}
+
+#movipassModal.active .proyecto-detail-modal-content {
+    animation: movipassModalEnter 0.5s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+}
+
+/* Scrollbar mejorada específica para MoviPass */
+#movipassModal .proyecto-detail-modal-content::-webkit-scrollbar-thumb {
+    background: linear-gradient(180deg, 
+        var(--primary-color) 0%, 
+        #0052cc 50%, 
+        var(--primary-color) 100%
+    );
+}
+
+/* Efecto de parallax en la imagen hero */
+.proyecto-hero-image {
+    position: relative;
+}
+
+.proyecto-hero-image::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(180deg, 
+        transparent 0%, 
+        rgba(0, 0, 0, 0.3) 100%
+    );
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    border-radius: 20px;
+}
+
+.proyecto-hero-image:hover::after {
+    opacity: 1;
+}
+
+/* Responsive específico para MoviPass */
+@media (max-width: 992px) {
+    .methodology-content {
+        padding: 1.5rem;
+    }
+    
+    .sprint-info {
+        padding: 1.5rem;
+        gap: 2rem;
+    }
+    
+    .sprint-stat h4 {
+        font-size: 2.5rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .methodology-content {
+        padding: 1.25rem;
+    }
+    
+    .methodology-content .lead-text {
+        padding-left: 1rem;
+    }
+    
+    .sprint-info {
+        padding: 1.25rem;
+        gap: 1.5rem;
+    }
+    
+    .sprint-stat h4 {
+        font-size: 2rem;
+    }
+    
+    .team-member {
+        padding: 1.25rem;
+    }
+    
+    .resource-buttons {
+        gap: 1rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .methodology-content {
+        padding: 1rem;
+    }
+    
+    .methodology-content .lead-text::before {
+        width: 3px;
+    }
+    
+    .sprint-info {
+        padding: 1rem;
+        gap: 1rem;
+    }
+    
+    .sprint-stat h4 {
+        font-size: 1.8rem;
+    }
+    
+    .sprint-stat p {
+        font-size: 0.85rem;
+    }
+    
+    .scrum-badge {
+        font-size: 0.95rem;
+        padding: 0.6rem 1.2rem;
+    }
+    
+    .team-member {
+        padding: 1rem;
+    }
+    
+    .team-member img {
+        width: 70px !important;
+        height: 70px !important;
+    }
+    
+    .resource-btn {
+        font-size: 1rem;
+        padding: 1.25rem;
+    }
+    
+    .resource-btn i {
+        font-size: 1.3rem;
+    }
+    .resource-btn.design {
+        background: rgba(255, 107, 80, 0.1);
+        border-color: #ff6b50;
+        color: #ff6b50;
+    }
+
+    .resource-btn.design:hover {
+        background: linear-gradient(135deg, #ff6b50 0%, #ff4520 100%);
+        color: white;
+        transform: translateY(-5px);
+        box-shadow: 0 10px 30px rgba(255, 107, 80, 0.4);
+    }
+}
+
+/* Transiciones suaves para todos los elementos */
+#movipassModal * {
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Loading animation para cuando se abre el modal */
+@keyframes loadingPulse {
+    0%, 100% {
+        opacity: 0.6;
+    }
+    50% {
+        opacity: 1;
+    }
+}
+
+#movipassModal.loading .modal-icon-proyecto {
+    animation: loadingPulse 1.5s ease-in-out infinite;
+}

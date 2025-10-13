@@ -64,6 +64,15 @@
                                 </div>
                             </a>
                         </li>
+                        <li>
+                            <a class="dropdown-item" href="#" id="openMovipassModalHeader">
+                                <i class="fas fa-bus-alt me-2 text-danger"></i>
+                                <div class="dropdown-item-content">
+                                    <strong>MoviPass - Desarrollo</strong>
+                                    <small class="d-block text-muted">Proceso Completo SCRUM</small>
+                                </div>
+                            </a>
+                        </li>
                     </ul>
                 </li>
                 

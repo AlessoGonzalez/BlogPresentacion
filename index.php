@@ -3385,5 +3385,471 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 </script>
 
+<!-- ========================================
+     MODAL MOVIPASS - DESARROLLO DE LA APP
+======================================== -->
+<div id="movipassModal" class="proyecto-detail-modal">
+    <div class="proyecto-detail-modal-overlay"></div>
+    <div class="proyecto-detail-modal-content">
+        <button class="modal-close-btn" type="button" aria-label="Cerrar modal">
+            <i class="fas fa-times"></i>
+        </button>
+        
+        <!-- Header del Modal -->
+        <div class="modal-header-proyecto">
+            <div class="modal-icon-proyecto">
+                <i class="fas fa-bus"></i>
+            </div>
+            <h2 class="modal-title-proyecto">MoviPass - Desarrollo Completo</h2>
+            <p class="modal-subtitle-proyecto">Sistema integral de gestión y venta de pasajes interprovinciales</p>
+        </div>
+        
+        <div class="proyecto-detail-content">
+            
+            <!-- Imagen Hero -->
+            <div class="proyecto-hero-image">
+                <img src="https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?w=1400&h=500&fit=crop" 
+                     alt="MoviPass Development">
+            </div>
+            
+            <!-- Descripción Principal -->
+            <div class="info-section mb-4">
+                <h3><i class="fas fa-rocket me-3"></i>Visión del Proyecto</h3>
+                <p class="lead-text">
+                    MoviPass revoluciona el transporte interprovincial en Ecuador mediante una plataforma 
+                    completa que digitaliza la venta de pasajes, optimiza la gestión operativa y mejora 
+                    la experiencia del usuario final con tecnologías modernas y metodologías ágiles.
+                </p>
+            </div>
+
+            <!-- Stack Tecnológico -->
+            <div class="tech-section mb-5">
+                <h3 class="section-title">
+                    <i class="fas fa-code"></i>
+                    Stack Tecnológico
+                </h3>
+                <div class="tech-grid">
+                    <div class="tech-item">
+                        <i class="fab fa-react"></i>
+                        <div>
+                            <strong>React + TypeScript</strong>
+                            <span>Frontend Web</span>
+                        </div>
+                    </div>
+                    <div class="tech-item">
+                        <i class="fab fa-node-js"></i>
+                        <div>
+                            <strong>Node.js + Express</strong>
+                            <span>Backend API</span>
+                        </div>
+                    </div>
+                    <div class="tech-item">
+                        <i class="fas fa-database"></i>
+                        <div>
+                            <strong>MySQL</strong>
+                            <span>Base de Datos</span>
+                        </div>
+                    </div>
+                    <div class="tech-item">
+                        <i class="fab fa-react"></i>
+                        <div>
+                            <strong>React Native</strong>
+                            <span>Apps Móviles</span>
+                        </div>
+                    </div>
+                    <div class="tech-item">
+                        <i class="fab fa-paypal"></i>
+                        <div>
+                            <strong>PayPal SDK</strong>
+                            <span>Pagos Online</span>
+                        </div>
+                    </div>
+                    <div class="tech-item">
+                        <i class="fas fa-shield-alt"></i>
+                        <div>
+                            <strong>JWT + Bcrypt</strong>
+                            <span>Seguridad</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Arquitectura del Sistema -->
+            <div class="features-section mb-5">
+                <h3 class="section-title">
+                    <i class="fas fa-sitemap"></i>
+                    Arquitectura del Sistema
+                </h3>
+                <div class="row g-4">
+                    <div class="col-md-6 col-lg-3">
+                        <div class="feature-card-modern">
+                            <div class="feature-icon-modern">
+                                <i class="fas fa-desktop"></i>
+                            </div>
+                            <h5>Aplicación Web</h5>
+                            <p>Panel administrativo para cooperativas y oficinistas</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <div class="feature-card-modern">
+                            <div class="feature-icon-modern">
+                                <i class="fas fa-mobile-alt"></i>
+                            </div>
+                            <h5>App Cliente</h5>
+                            <p>Búsqueda y compra de pasajes para usuarios finales</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <div class="feature-card-modern">
+                            <div class="feature-icon-modern">
+                                <i class="fas fa-qrcode"></i>
+                            </div>
+                            <h5>App Validador</h5>
+                            <p>Escaneo y validación de boletos digitales</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <div class="feature-card-modern">
+                            <div class="feature-icon-modern">
+                                <i class="fas fa-server"></i>
+                            </div>
+                            <h5>API RESTful</h5>
+                            <p>Backend centralizado con endpoints seguros</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Metodología Ágil -->
+            <div class="info-section mb-5">
+                <h3><i class="fas fa-sync-alt me-3"></i>Metodología Ágil - SCRUM</h3>
+                <div class="methodology-content">
+                    <div class="scrum-badge">
+                        <i class="fas fa-running"></i>
+                        <span>Desarrollo en Sprints</span>
+                    </div>
+                    <p class="lead-text">
+                        El proyecto se desarrolló en <strong>8 sprints de 7-14 días</strong>, permitiendo 
+                        entregas iterativas y adaptación continua. Cada sprint incluyó planificación, desarrollo, 
+                        revisión y retrospectiva, garantizando calidad y alineación con los objetivos.
+                    </p>
+                    <div class="sprint-info">
+                        <div class="sprint-stat">
+                            <h4>8</h4>
+                            <p>Sprints</p>
+                        </div>
+                        <div class="sprint-stat">
+                            <h4>75</h4>
+                            <p>Días</p>
+                        </div>
+                        <div class="sprint-stat">
+                            <h4>5</h4>
+                            <p>Desarrolladores</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Fases del Proyecto -->
+            <div class="phases-section mb-5">
+                <h3 class="section-title">
+                    <i class="fas fa-tasks"></i>
+                    Fases del Desarrollo
+                </h3>
+                <div class="row g-4">
+                    <div class="col-md-6">
+                        <div class="timeline-card">
+                            <div class="timeline-year">Sprint 1-2</div>
+                            <h5>Análisis y Diseño</h5>
+                            <p>Levantamiento de requisitos, diseño de arquitectura, modelado de base de datos y prototipos visuales</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="timeline-card">
+                            <div class="timeline-year">Sprint 3-5</div>
+                            <h5>Desarrollo Backend</h5>
+                            <p>API RESTful, autenticación JWT, integración con PayPal, gestión de cooperativas y frecuencias</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="timeline-card">
+                            <div class="timeline-year">Sprint 4-6</div>
+                            <h5>Desarrollo Frontend</h5>
+                            <p>Interfaces administrativas, sistema de compra de boletos, selección de asientos y dashboard</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="timeline-card">
+                            <div class="timeline-year">Sprint 6-7</div>
+                            <h5>Apps Móviles</h5>
+                            <p>Aplicación para usuarios finales y app de validación para choferes con lectura QR</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="timeline-card">
+                            <div class="timeline-year">Sprint 7-8</div>
+                            <h5>Pruebas y Despliegue</h5>
+                            <p>Testing integral, corrección de bugs, optimización y lanzamiento en producción</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Roles del Sistema -->
+            <div class="users-section mb-5">
+                <h3 class="section-title">
+                    <i class="fas fa-users"></i>
+                    Roles del Sistema
+                </h3>
+                <div class="row g-4">
+                    <div class="col-md-3">
+                        <div class="user-type-card">
+                            <div class="user-icon">
+                                <i class="fas fa-user-shield"></i>
+                            </div>
+                            <h4>Administrador</h4>
+                            <p>Gestión completa de cooperativas, rutas y configuración del sistema</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="user-type-card">
+                            <div class="user-icon">
+                                <i class="fas fa-user-tie"></i>
+                            </div>
+                            <h4>Oficinista</h4>
+                            <p>Venta de boletos, atención al cliente y gestión de frecuencias</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="user-type-card">
+                            <div class="user-icon">
+                                <i class="fas fa-user"></i>
+                            </div>
+                            <h4>Cliente</h4>
+                            <p>Búsqueda de rutas, compra de pasajes y visualización de boletos</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="user-type-card">
+                            <div class="user-icon">
+                                <i class="fas fa-clipboard-check"></i>
+                            </div>
+                            <h4>Validador</h4>
+                            <p>Escaneo y validación de boletos al momento del embarque</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Beneficios Clave -->
+            <div class="benefits-section mb-5">
+                <h3 class="section-title">
+                    <i class="fas fa-trophy"></i>
+                    Beneficios del Sistema
+                </h3>
+                <div class="row g-4">
+                    <div class="col-md-6">
+                        <div class="benefit-card">
+                            <i class="fas fa-clock"></i>
+                            <div>
+                                <h5>Reducción de Tiempos</h5>
+                                <p>Elimina filas y agiliza el proceso de compra hasta en un 80%</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="benefit-card">
+                            <i class="fas fa-shield-alt"></i>
+                            <div>
+                                <h5>Mayor Seguridad</h5>
+                                <p>Autenticación robusta y validación digital con código QR</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="benefit-card">
+                            <i class="fas fa-chart-line"></i>
+                            <div>
+                                <h5>Control Operativo</h5>
+                                <p>Dashboard con métricas en tiempo real y reportes detallados</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="benefit-card">
+                            <i class="fas fa-mobile-alt"></i>
+                            <div>
+                                <h5>Acceso Multiplataforma</h5>
+                                <p>Disponible en web, iOS y Android para máxima cobertura</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Equipo de Desarrollo -->
+            <div class="team-section mb-5">
+                <h3 class="section-title">
+                    <i class="fas fa-users-cog"></i>
+                    Equipo de Desarrollo
+                </h3>
+                <div class="team-grid">
+                    <div class="team-member">
+                        <img src="images/joel.jpeg" alt="Joel Espinoza" style="width:90px;height:90px;border-radius:50%;object-fit:cover;">
+                        <strong>Joel Espinoza</strong>
+                        <span>Full Stack Developer</span>
+                    </div>
+                    <div class="team-member">
+                        <img src="images/alesso.jpeg" alt="Alessandro González" style="width:90px;height:90px;border-radius:50%;object-fit:cover;">
+                        <strong>Alessandro González</strong>
+                        <span>Full Stack Developer</span>
+                    </div>
+                    <div class="team-member">
+                        <img src="images/david.jpeg" alt="David López" style="width:90px;height:90px;border-radius:50%;object-fit:cover;">
+                        <strong>David López</strong>
+                        <span>Frontend Developer</span>
+                    </div>
+                    <div class="team-member">
+                        <img src="images/cris.jpeg" alt="Christopher Paucar" style="width:90px;height:90px;border-radius:50%;object-fit:cover;">
+                        <strong>Christopher Paucar</strong>
+                        <span>Backend Developer</span>
+                    </div>
+                    <div class="team-member">
+                        <img src="images/jade.jpeg" alt="Jade Ramírez" style="width:90px;height:90px;border-radius:50%;object-fit:cover;">
+                        <strong>Jade Ramírez</strong>
+                        <span>Mobile Developer</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Enlaces y Recursos -->
+            <div class="resources-section">
+                <h3 class="section-title">
+                    <i class="fas fa-link"></i>
+                    Recursos del Proyecto
+                </h3>
+                <div class="resource-buttons">
+                    <a href="https://tech-industries-proy-das.atlassian.net/wiki/x/AIEO" target="_blank" class="resource-btn blog">
+                        <i class="fas fa-book"></i>
+                        <span>Documentación Confluence</span>
+                    </a>
+                    <a href="https://blogpresentacion.onrender.com/" target="_blank" class="resource-btn presentation">
+                        <i class="fas fa-blog"></i>
+                        <span>Blog del Proyecto</span>
+                    </a>
+                    <a href="https://www.canva.com/design/DAGy_0H5N4Q/Wvv_nhfJGYs1oJ1Y90mbtg/view" target="_blank" class="resource-btn presentation">
+                        <i class="fas fa-presentation"></i>
+                        <span>Presentación</span>
+                    </a>
+                    <a href="https://design.penpot.app/#/view?file-id=aadbbc88-0e4c-80b8-8006-f1722535374a&page-id=bd830f34-5ac9-8161-8006-bcc05e13058b&section=interactions&index=0&share-id=aadbbc88-0e4c-80b8-8006-f2bcef4620e6" target="_blank" class="resource-btn design">
+                        <i class="fas fa-palette"></i>
+                        <span>Diseño en Penpot</span>
+                    </a>
+                    <a href="#" class="resource-btn github disabled" title="Repositorio privado">
+                        <i class="fab fa-github"></i>
+                        <span>Código Fuente (Privado)</span>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<script>
+// ========================================
+// MODAL MOVIPASS
+// ========================================
+document.addEventListener('DOMContentLoaded', function() {
+    const movipassModal = document.getElementById('movipassModal');
+    const modalOverlay = movipassModal?.querySelector('.proyecto-detail-modal-overlay');
+    const modalCloseBtn = movipassModal?.querySelector('.modal-close-btn');
+    
+    // Abrir modal
+    function openMovipassModal(e) {
+        if (e) e.preventDefault();
+        if (movipassModal) {
+            movipassModal.classList.add('active');
+            document.body.style.overflow = 'hidden';
+        }
+    }
+    
+    // Cerrar modal
+    function closeMovipassModal() {
+        if (movipassModal) {
+            movipassModal.classList.remove('active');
+            document.body.style.overflow = 'auto';
+        }
+    }
+    
+    // Event listener para abrir desde el Tech Lab
+    const movipassLink = document.getElementById('openMovipassModal');
+    if (movipassLink) {
+        movipassLink.addEventListener('click', openMovipassModal);
+    }
+    
+    // Cerrar con overlay
+    modalOverlay?.addEventListener('click', closeMovipassModal);
+    
+    // Cerrar con botón X
+    modalCloseBtn?.addEventListener('click', closeMovipassModal);
+    
+    // Cerrar con ESC
+    document.addEventListener('keydown', function(e) {
+        if (e.key === 'Escape' && movipassModal?.classList.contains('active')) {
+            closeMovipassModal();
+        }
+    });
+    
+    // Prevenir cierre al hacer clic dentro
+    const modalContent = movipassModal?.querySelector('.proyecto-detail-modal-content');
+    modalContent?.addEventListener('click', function(e) {
+        e.stopPropagation();
+    });
+    
+    console.log('✅ Modal MoviPass inicializado');
+});
+
+// NUEVO: Manejar clic en "MoviPass" para abrir modal
+const openMovipassModalBtn = document.getElementById('openMovipassModalHeader');
+if(openMovipassModalBtn) {
+    openMovipassModalBtn.addEventListener('click', function(e) {
+        e.preventDefault();
+        const movipassModal = document.getElementById('movipassModal');
+        if(movipassModal) {
+            movipassModal.classList.add('active');
+            document.body.style.overflow = 'hidden';
+        }
+    });
+}
+
+// NUEVO: Manejar clic en "Herramientas de Planificación" para abrir modal
+const openPlanificacionModalBtn = document.getElementById('openPlanificacionModal');
+if(openPlanificacionModalBtn) {
+    openPlanificacionModalBtn.addEventListener('click', function(e) {
+        e.preventDefault();
+        const planificacionModal = document.getElementById('planificacionModal');
+        if(planificacionModal) {
+            planificacionModal.classList.add('active');
+            document.body.style.overflow = 'hidden';
+        }
+    });
+}
+
+// NUEVO: Manejar clic en "Penpot" para abrir modal
+const openPenpotModalBtn = document.getElementById('openPenpotModal');
+if(openPenpotModalBtn) {
+    openPenpotModalBtn.addEventListener('click', function(e) {
+        e.preventDefault();
+        const penpotModal = document.getElementById('penpotModal');
+        if(penpotModal) {
+            penpotModal.classList.add('active');
+            document.body.style.overflow = 'hidden';
+        }
+    });
+}
+</script>
+
+
 </body>
 </html>
