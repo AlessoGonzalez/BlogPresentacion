@@ -3480,8 +3480,8 @@ document.addEventListener('DOMContentLoaded', function() {
                     <i class="fas fa-sitemap"></i>
                     Arquitectura del Sistema
                 </h3>
-                <div class="row g-4">
-                    <div class="col-md-6 col-lg-3">
+                <div class="row g-3">
+                    <div class="col-md-6 col-lg-4">
                         <div class="feature-card-modern">
                             <div class="feature-icon-modern">
                                 <i class="fas fa-desktop"></i>
@@ -3490,16 +3490,8 @@ document.addEventListener('DOMContentLoaded', function() {
                             <p>Panel administrativo para cooperativas y oficinistas</p>
                         </div>
                     </div>
-                    <div class="col-md-6 col-lg-3">
-                        <div class="feature-card-modern">
-                            <div class="feature-icon-modern">
-                                <i class="fas fa-mobile-alt"></i>
-                            </div>
-                            <h5>App Cliente</h5>
-                            <p>Búsqueda y compra de pasajes para usuarios finales</p>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-3">
+                    
+                    <div class="col-md-6 col-lg-4">
                         <div class="feature-card-modern">
                             <div class="feature-icon-modern">
                                 <i class="fas fa-qrcode"></i>
@@ -3508,7 +3500,7 @@ document.addEventListener('DOMContentLoaded', function() {
                             <p>Escaneo y validación de boletos digitales</p>
                         </div>
                     </div>
-                    <div class="col-md-6 col-lg-3">
+                    <div class="col-md-6 col-lg-4">
                         <div class="feature-card-modern">
                             <div class="feature-icon-modern">
                                 <i class="fas fa-server"></i>
