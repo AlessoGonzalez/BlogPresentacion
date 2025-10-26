@@ -668,7 +668,31 @@
             </div>
 
             <!-- PROYECTO 15: MasQueFoto -->
-            
+            <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="200">
+                <div class="card proyecto-card h-100 border-0 shadow-sm">
+                    <div class="proyecto-img-container position-relative overflow-hidden">
+                        <img src="https://images.unsplash.com/photo-1452587925148-ce544e77e70d?w=800&h=600&fit=crop" 
+                             alt="MasQueFoto" class="card-img-top proyecto-img">
+                        <span class="proyecto-badge">Photography</span>
+                    </div>
+                    <div class="card-body proyecto-body">
+                        <h5 class="card-title proyecto-title">MasQueFoto - Estudio Fotográfico</h5>
+                        <p class="card-text proyecto-description">
+                            Plataforma web para estudio fotográfico con galería de portafolio, reservas de sesiones y gestión de clientes.
+                        </p>
+                        <div class="proyecto-tech mb-3">
+                            <span class="tech-tag"><i class="fab fa-html5"></i> HTML5</span>
+                            <span class="tech-tag"><i class="fab fa-css3"></i> CSS3</span>
+                            <span class="tech-tag"><i class="fab fa-js"></i> JavaScript</span>
+                        </div>
+                        <div class="proyecto-links d-flex gap-2">
+                            <a href="https://github.com/AlessoGonzalez/MasQueFoto" target="_blank" class="btn btn-github flex-fill">
+                                <i class="fab fa-github me-2"></i>Ver Código
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
         </div>
     </div>
