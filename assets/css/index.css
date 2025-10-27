@@ -4285,3 +4285,705 @@ body {
 #movipassModal.loading .modal-icon-proyecto {
     animation: loadingPulse 1.5s ease-in-out infinite;
 }
+
+/* ========================================
+   ESTILOS ESPECÍFICOS PARA MODAL DEVOPS
+======================================== */
+
+/* Infografía Section */
+.infografia-section {
+    margin-bottom: 3rem;
+}
+
+.infografia-container {
+    background: rgba(0, 102, 255, 0.03);
+    border: 2px solid rgba(0, 102, 255, 0.2);
+    border-radius: 20px;
+    padding: 2rem;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+.infografia-container:hover {
+    background: rgba(0, 102, 255, 0.08);
+    border-color: var(--primary-color);
+    box-shadow: 0 15px 40px rgba(0, 102, 255, 0.3);
+}
+
+.infografia-image {
+    width: 100%;
+    max-width: 1000px;
+    height: auto;
+    border-radius: 15px;
+    box-shadow: 0 10px 40px rgba(0, 102, 255, 0.2);
+    transition: all 0.3s ease;
+    margin-bottom: 1.5rem;
+}
+
+.infografia-container:hover .infografia-image {
+    transform: scale(1.02);
+    box-shadow: 0 15px 50px rgba(0, 102, 255, 0.4);
+}
+
+.infografia-description {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 1rem;
+    font-weight: 500;
+    margin: 0;
+    padding: 1rem;
+    background: rgba(0, 102, 255, 0.05);
+    border: 1px solid rgba(0, 102, 255, 0.2);
+    border-radius: 10px;
+    display: inline-block;
+}
+
+.infografia-description i {
+    color: var(--primary-color);
+}
+
+/* DevOps Cycle */
+.devops-cycle {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1.5rem;
+    margin-top: 2rem;
+}
+
+.cycle-step {
+    background: rgba(0, 102, 255, 0.05);
+    border: 2px solid rgba(0, 102, 255, 0.2);
+    border-radius: 15px;
+    padding: 1.5rem;
+    text-align: center;
+    transition: all 0.3s ease;
+    position: relative;
+}
+
+.cycle-step:hover {
+    background: rgba(0, 102, 255, 0.1);
+    border-color: var(--primary-color);
+    transform: translateY(-5px);
+    box-shadow: 0 10px 30px rgba(0, 102, 255, 0.3);
+}
+
+.step-number {
+    width: 50px;
+    height: 50px;
+    background: linear-gradient(135deg, var(--primary-color), #0052cc);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 1rem;
+    font-size: 1.5rem;
+    font-weight: 900;
+    color: white;
+    box-shadow: 0 5px 20px rgba(0, 102, 255, 0.4);
+    transition: all 0.3s ease;
+}
+
+.cycle-step:hover .step-number {
+    transform: scale(1.15) rotate(360deg);
+}
+
+.cycle-step h5 {
+    color: #fff;
+    font-size: 1.1rem;
+    font-weight: 700;
+    margin-bottom: 0.75rem;
+}
+
+.cycle-step p {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 0.9rem;
+    margin: 0;
+    line-height: 1.5;
+}
+
+/* Tool Category Cards */
+.tool-category-card {
+    background: rgba(0, 102, 255, 0.05);
+    border: 2px solid rgba(0, 102, 255, 0.2);
+    border-radius: 20px;
+    padding: 1.5rem;
+    height: 100%;
+    transition: all 0.3s ease;
+}
+
+.tool-category-card:hover {
+    background: rgba(0, 102, 255, 0.1);
+    border-color: var(--primary-color);
+    transform: translateY(-5px);
+    box-shadow: 0 15px 40px rgba(0, 102, 255, 0.3);
+}
+
+.tool-category-header {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+    padding-bottom: 1rem;
+    border-bottom: 2px solid rgba(0, 102, 255, 0.2);
+}
+
+.tool-category-header i {
+    font-size: 2rem;
+    color: var(--primary-color);
+}
+
+.tool-category-header h4 {
+    color: #fff;
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin: 0;
+}
+
+.tool-item {
+    padding: 1rem;
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    margin-bottom: 0.75rem;
+    transition: all 0.3s ease;
+}
+
+.tool-item:last-child {
+    margin-bottom: 0;
+}
+
+.tool-item:hover {
+    background: rgba(0, 102, 255, 0.1);
+    transform: translateX(5px);
+}
+
+.tool-item strong {
+    color: var(--primary-color);
+    font-size: 1.05rem;
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+.tool-item p {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 0.9rem;
+    margin: 0;
+    line-height: 1.5;
+}
+
+/* Conclusions Grid */
+.conclusions-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.5rem;
+    margin-top: 1.5rem;
+}
+
+.conclusion-item {
+    background: rgba(0, 102, 255, 0.05);
+    border: 2px solid rgba(0, 102, 255, 0.2);
+    border-radius: 15px;
+    padding: 1.5rem;
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+    transition: all 0.3s ease;
+}
+
+.conclusion-item:hover {
+    background: rgba(0, 102, 255, 0.1);
+    border-color: var(--primary-color);
+    transform: translateY(-5px);
+    box-shadow: 0 10px 30px rgba(0, 102, 255, 0.3);
+}
+
+.conclusion-item i {
+    font-size: 1.5rem;
+    color: var(--primary-color);
+    flex-shrink: 0;
+    margin-top: 0.25rem;
+}
+
+.conclusion-item p {
+    color: rgba(255, 255, 255, 0.85);
+    font-size: 0.95rem;
+    line-height: 1.6;
+    margin: 0;
+}
+
+/* Animación para el ícono de infinito en el header */
+#devOpsModal .modal-icon-proyecto i {
+    animation: infinityRotate 3s ease-in-out infinite;
+}
+
+@keyframes infinityRotate {
+    0%, 100% {
+        transform: rotate(0deg);
+    }
+    50% {
+        transform: rotate(180deg);
+    }
+}
+
+/* Animación específica para DevOps Cycle */
+.devops-cycle .cycle-step:nth-child(1) { animation-delay: 0s; }
+.devops-cycle .cycle-step:nth-child(2) { animation-delay: 0.1s; }
+.devops-cycle .cycle-step:nth-child(3) { animation-delay: 0.2s; }
+.devops-cycle .cycle-step:nth-child(4) { animation-delay: 0.3s; }
+.devops-cycle .cycle-step:nth-child(5) { animation-delay: 0.4s; }
+.devops-cycle .cycle-step:nth-child(6) { animation-delay: 0.5s; }
+.devops-cycle .cycle-step:nth-child(7) { animation-delay: 0.6s; }
+
+#devOpsModal.active .cycle-step {
+    animation: cycleStepFadeIn 0.6s ease forwards;
+}
+
+@keyframes cycleStepFadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Tool Category Cards - Animación de entrada */
+.tools-section .tool-category-card:nth-child(1) { animation-delay: 0s; }
+.tools-section .tool-category-card:nth-child(2) { animation-delay: 0.1s; }
+.tools-section .tool-category-card:nth-child(3) { animation-delay: 0.2s; }
+.tools-section .tool-category-card:nth-child(4) { animation-delay: 0.3s; }
+.tools-section .tool-category-card:nth-child(5) { animation-delay: 0.4s; }
+.tools-section .tool-category-card:nth-child(6) { animation-delay: 0.5s; }
+
+#devOpsModal.active .tool-category-card {
+    animation: toolCardSlideIn 0.6s ease forwards;
+}
+
+@keyframes toolCardSlideIn {
+    from {
+        opacity: 0;
+        transform: translateX(-30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+/* Efecto de brillo en herramientas al hover */
+.tool-category-card::before {
+    content: '';
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    right: -2px;
+    bottom: -2px;
+    background: linear-gradient(45deg, 
+        var(--primary-color), 
+        #00d4ff, 
+        var(--primary-color)
+    );
+    border-radius: 20px;
+    opacity: 0;
+    z-index: -1;
+    animation: toolGlow 3s linear infinite;
+    transition: opacity 0.3s ease;
+}
+
+.tool-category-card:hover::before {
+    opacity: 0.3;
+}
+
+@keyframes toolGlow {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+/* Efecto parallax en timeline cards */
+.timeline-card {
+    position: relative;
+    overflow: hidden;
+}
+
+.timeline-card::after {
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    background: radial-gradient(circle, 
+        rgba(0, 102, 255, 0.1) 0%, 
+        transparent 70%
+    );
+    opacity: 0;
+    transition: opacity 0.5s ease;
+    pointer-events: none;
+}
+
+.timeline-card:hover::after {
+    opacity: 1;
+    animation: parallaxMove 2s ease-in-out infinite;
+}
+
+@keyframes parallaxMove {
+    0%, 100% {
+        transform: translate(0, 0);
+    }
+    50% {
+        transform: translate(-10%, -10%);
+    }
+}
+
+/* Responsive específico para DevOps */
+@media (max-width: 992px) {
+    .devops-cycle {
+        grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+        gap: 1.25rem;
+    }
+    
+    .tool-category-card {
+        padding: 1.25rem;
+    }
+    
+    .tool-category-header {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .infografia-image {
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    .devops-cycle {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+    
+    .cycle-step {
+        padding: 1.25rem;
+    }
+    
+    .step-number {
+        width: 45px;
+        height: 45px;
+        font-size: 1.3rem;
+    }
+    
+    .cycle-step h5 {
+        font-size: 1rem;
+    }
+    
+    .cycle-step p {
+        font-size: 0.85rem;
+    }
+    
+    .tool-category-card {
+        padding: 1rem;
+    }
+    
+    .tool-category-header i {
+        font-size: 1.7rem;
+    }
+    
+    .tool-category-header h4 {
+        font-size: 1.1rem;
+    }
+    
+    .tool-item {
+        padding: 0.85rem;
+    }
+    
+    .tool-item strong {
+        font-size: 1rem;
+    }
+    
+    .tool-item p {
+        font-size: 0.85rem;
+    }
+    
+    .conclusions-grid {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+    
+    .conclusion-item {
+        padding: 1.25rem;
+    }
+    
+    .conclusion-item i {
+        font-size: 1.3rem;
+    }
+    
+    .conclusion-item p {
+        font-size: 0.9rem;
+    }
+    
+    .infografia-container {
+        padding: 1.5rem;
+    }
+    
+    .infografia-description {
+        font-size: 0.9rem;
+        padding: 0.85rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .devops-cycle {
+        gap: 0.85rem;
+    }
+    
+    .cycle-step {
+        padding: 1rem;
+    }
+    
+    .step-number {
+        width: 40px;
+        height: 40px;
+        font-size: 1.2rem;
+        margin-bottom: 0.75rem;
+    }
+    
+    .cycle-step h5 {
+        font-size: 0.95rem;
+    }
+    
+    .cycle-step p {
+        font-size: 0.8rem;
+    }
+    
+    .tool-category-card {
+        padding: 0.9rem;
+    }
+    
+    .tool-category-header {
+        margin-bottom: 1rem;
+        padding-bottom: 0.85rem;
+    }
+    
+    .tool-category-header i {
+        font-size: 1.5rem;
+    }
+    
+    .tool-category-header h4 {
+        font-size: 1rem;
+    }
+    
+    .tool-item {
+        padding: 0.75rem;
+        margin-bottom: 0.6rem;
+    }
+    
+    .tool-item strong {
+        font-size: 0.95rem;
+    }
+    
+    .tool-item p {
+        font-size: 0.8rem;
+    }
+    
+    .conclusions-grid {
+        gap: 0.85rem;
+    }
+    
+    .conclusion-item {
+        padding: 1rem;
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .conclusion-item i {
+        font-size: 1.2rem;
+        margin-bottom: 0.5rem;
+    }
+    
+    .conclusion-item p {
+        font-size: 0.85rem;
+    }
+    
+    .infografia-container {
+        padding: 1rem;
+    }
+    
+    .infografia-image {
+        border-radius: 10px;
+    }
+    
+    .infografia-description {
+        font-size: 0.85rem;
+        padding: 0.75rem;
+    }
+}
+
+/* Transición suave al abrir el modal */
+#devOpsModal.active .proyecto-detail-modal-content {
+    animation: devOpsModalEnter 0.5s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+}
+
+@keyframes devOpsModalEnter {
+    from {
+        opacity: 0;
+        transform: scale(0.9) translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1) translateY(0);
+    }
+}
+
+/* Loading animation para imágenes */
+.infografia-image {
+    position: relative;
+}
+
+.infografia-image::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(90deg, 
+        transparent 0%, 
+        rgba(0, 102, 255, 0.2) 50%, 
+        transparent 100%
+    );
+    animation: imageShimmer 2s infinite;
+    opacity: 0;
+}
+
+.infografia-image:not([src]) {
+    background: rgba(0, 102, 255, 0.05);
+}
+
+.infografia-image:not([src])::before {
+    opacity: 1;
+}
+
+@keyframes imageShimmer {
+    0% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(100%);
+    }
+}
+
+/* Video Section para DevOps */
+.video-section {
+    margin-bottom: 3rem;
+}
+
+.video-section .section-title {
+    margin-bottom: 2rem;
+}
+
+.video-container {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%; /* Aspect ratio 16:9 */
+    height: 0;
+    overflow: hidden;
+    border-radius: 20px;
+    box-shadow: 0 20px 60px rgba(0, 102, 255, 0.3);
+    border: 3px solid rgba(0, 102, 255, 0.3);
+    background: rgba(0, 0, 0, 0.5);
+    margin-bottom: 1.5rem;
+    transition: all 0.3s ease;
+}
+
+.video-container:hover {
+    border-color: var(--primary-color);
+    box-shadow: 0 25px 70px rgba(0, 102, 255, 0.5);
+    transform: translateY(-5px);
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 17px;
+}
+
+.video-description {
+    text-align: center;
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 1rem;
+    background: rgba(0, 102, 255, 0.05);
+    border: 1px solid rgba(0, 102, 255, 0.2);
+    border-radius: 15px;
+    display: inline-block;
+    width: 100%;
+}
+
+.video-description i {
+    color: var(--primary-color);
+}
+
+/* Botón YouTube */
+.resource-btn.blog {
+    background: linear-gradient(135deg, 
+        rgba(255, 0, 0, 0.1) 0%, 
+        rgba(255, 0, 0, 0.05) 100%
+    );
+    border-color: #ff0000;
+    color: #ff0000;
+}
+
+.resource-btn.blog:hover {
+    background: linear-gradient(135deg, 
+        #ff0000 0%, 
+        #cc0000 100%
+    );
+    color: white;
+    box-shadow: 0 10px 30px rgba(255, 0, 0, 0.4);
+}
+
+.resource-btn.blog i {
+    font-size: 1.5rem;
+}
+
+/* Responsive para video */
+@media (max-width: 768px) {
+    .video-section {
+        margin-bottom: 2rem;
+    }
+    
+    .video-container {
+        border-width: 2px;
+        border-radius: 15px;
+    }
+    
+    .video-container iframe {
+        border-radius: 13px;
+    }
+    
+    .video-description {
+        font-size: 0.9rem;
+        padding: 0.85rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .video-container {
+        border-radius: 12px;
+        margin-bottom: 1rem;
+    }
+    
+    .video-container iframe {
+        border-radius: 10px;
+    }
+    
+    .video-description {
+        font-size: 0.85rem;
+        padding: 0.75rem;
+    }
+}
