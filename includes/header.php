@@ -4,7 +4,7 @@
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
     <div class="container">
         <a class="navbar-brand d-flex align-items-center" href="index.php">
-            <img src="images/logo.jpeg" alt="Logo Tu Empresa" class="logo-img">
+            <img src="images/logo.svg" alt="Logo Tu Empresa" class="logo-img">
             <span class="brand-text ms-2">TECH-INDUSTRIES</span>
         </a>
         <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
@@ -70,6 +70,15 @@
                                 <div class="dropdown-item-content">
                                     <strong>MoviPass - Desarrollo</strong>
                                     <small class="d-block text-muted">Proceso Completo SCRUM</small>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href="#" id="openDevOpsModal">
+                                <i class="fas fa-infinity me-2 text-info"></i>
+                                <div class="dropdown-item-content">
+                                    <strong>DevOps & CI/CD</strong>
+                                    <small class="d-block text-muted">Integración y Despliegue Continuo</small>
                                 </div>
                             </a>
                         </li>
