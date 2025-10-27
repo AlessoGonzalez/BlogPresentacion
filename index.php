@@ -7,8 +7,8 @@
     <meta name="description" content="Somos un equipo de 5 expertos en desarrollo de software a medida. Innovamos, creamos y transformamos ideas en soluciones digitales.">
 
     <!-- Favicon -->
-    <link rel="icon" type="image/svg+xml" href="images/logo.svg">
-    <link rel="shortcut icon" type="image/svg+xml" href="images/logo.svg">
+    <link rel="icon" type="image/svg+xml" href="images/logo.png">
+    <link rel="shortcut icon" type="image/svg+xml" href="images/logo.png">
 
     <!-- Bootstrap 5 CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -3977,7 +3977,7 @@ if(openPenpotModalBtn) {
                     Integración y Distribución Continua (CI/CD)
                 </h3>
                 <div class="infografia-container">
-                    <img src="images/IntegracionYdistribucionContinuaCICD.svg" 
+                    <img src="images/Integracion YDistribucionContinuaCICD.png" 
                          alt="Integración y Distribución Continua CI/CD" 
                          class="infografia-image">
                     <p class="infografia-description">
@@ -4274,6 +4274,469 @@ if(openPenpotModalBtn) {
                         <i class="fas fa-image"></i>
                         <span>Ver Infografía Completa</span>
                     </a>
+                    <a href="https://www.youtube.com/watch?v=iroj36h5-FA" target="_blank" class="resource-btn blog">
+                        <i class="fab fa-youtube"></i>
+                        <span>Ver Video en YouTube</span>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+<!-- ========================================
+     MODAL DEVOPS & CI/CD
+======================================== -->
+<div id="devOpsModal" class="proyecto-detail-modal">
+    <div class="proyecto-detail-modal-overlay"></div>
+    <div class="proyecto-detail-modal-content">
+        <button class="modal-close-btn" type="button" aria-label="Cerrar modal">
+            <i class="fas fa-times"></i>
+        </button>
+        
+        <!-- Header del Modal -->
+        <div class="modal-header-proyecto">
+            <div class="modal-icon-proyecto">
+                <i class="fas fa-infinity"></i>
+            </div>
+            <h2 class="modal-title-proyecto">DevOps & CI/CD</h2>
+            <p class="modal-subtitle-proyecto">Integración y Despliegue Continuo - Cultura de colaboración entre desarrollo y operaciones</p>
+        </div>
+        
+        <div class="proyecto-detail-content">
+            
+            <!-- Imagen Hero -->
+            <div class="proyecto-hero-image">
+                <img src="https://images.unsplash.com/photo-1667372393119-3d4c48d07fc9?w=1400&h=500&fit=crop" 
+                     alt="DevOps CI/CD">
+            </div>
+            
+            <!-- Descripción Principal -->
+            <div class="info-section mb-4">
+                <h3><i class="fas fa-info-circle me-3"></i>¿Qué es DevOps?</h3>
+                <p class="lead-text">
+                    DevOps es una <strong>filosofía de trabajo, cultura organizativa y conjunto de prácticas</strong> 
+                    que busca integrar de manera fluida el desarrollo de software (Development) con las operaciones 
+                    de TI (Operations). Su propósito principal es entregar software de forma <strong>rápida, confiable, 
+                    segura y continua</strong>, reduciendo errores, fallas en producción y retrasos en los despliegues.
+                </p>
+                <p class="lead-text">
+                    A diferencia de los métodos tradicionales donde desarrollo y operaciones trabajaban de manera 
+                    separada, DevOps promueve la <strong>colaboración constante, responsabilidad compartida y 
+                    automatización de tareas repetitivas</strong>.
+                </p>
+            </div>
+
+            <!-- Historia -->
+            <div class="info-section mb-5">
+                <h3><i class="fas fa-history me-3"></i>Historia de DevOps</h3>
+                <div class="row g-4">
+                    <div class="col-md-6">
+                        <div class="timeline-card">
+                            <div class="timeline-year">2008</div>
+                            <h5>Nacimiento de DevOps</h5>
+                            <p>
+                                El consultor belga <strong>Patrick Debois</strong> organizó la primera conferencia 
+                                "DevOps Days" en Bélgica, consolidando el concepto que combina "Development" y "Operations". 
+                                El objetivo: crear una cultura de colaboración para entregar software de manera más 
+                                rápida y confiable.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="timeline-card">
+                            <div class="timeline-year">2010-2015</div>
+                            <h5>Adopción Masiva</h5>
+                            <p>
+                                Empresas líderes como <strong>Amazon, Netflix, Google y Facebook</strong> adoptaron 
+                                DevOps para desplegar cientos de actualizaciones diarias sin comprometer la estabilidad. 
+                                Surge el auge de herramientas de CI/CD, contenedores (Docker) y orquestadores (Kubernetes).
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <div class="timeline-card">
+                            <div class="timeline-year">Actualidad</div>
+                            <h5>DevOps Moderno</h5>
+                            <p>
+                                DevOps se ha consolidado como un enfoque global que incluye prácticas de monitoreo 
+                                constante, resiliencia, seguridad (DevSecOps) y automatización avanzada. Se está 
+                                integrando con inteligencia artificial para hacer procesos más inteligentes, 
+                                predictivos y eficientes.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Características Principales -->
+            <div class="features-section mb-5">
+                <h3 class="section-title">
+                    <i class="fas fa-star"></i>
+                    Características Principales
+                </h3>
+                <div class="row g-4">
+                    <div class="col-md-6 col-lg-4">
+                        <div class="feature-card-modern">
+                            <div class="feature-icon-modern">
+                                <i class="fas fa-users"></i>
+                            </div>
+                            <h5>Colaboración Continua</h5>
+                            <p>Comunicación constante entre desarrolladores, operadores y demás involucrados en el proyecto</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="feature-card-modern">
+                            <div class="feature-icon-modern">
+                                <i class="fas fa-robot"></i>
+                            </div>
+                            <h5>Automatización</h5>
+                            <p>Reduce tareas manuales y repetitivas en compilación, prueba y despliegue del software</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="feature-card-modern">
+                            <div class="feature-icon-modern">
+                                <i class="fas fa-sync-alt"></i>
+                            </div>
+                            <h5>Integración y Entrega Continua</h5>
+                            <p>Software que se construye, prueba y publica de forma rápida y constante</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="feature-card-modern">
+                            <div class="feature-icon-modern">
+                                <i class="fas fa-chart-line"></i>
+                            </div>
+                            <h5>Monitoreo Constante</h5>
+                            <p>Supervisión del comportamiento de aplicaciones para detectar y resolver errores</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="feature-card-modern">
+                            <div class="feature-icon-modern">
+                                <i class="fas fa-code"></i>
+                            </div>
+                            <h5>Infraestructura como Código</h5>
+                            <p>Gestión de entornos mediante archivos de configuración para consistencia y rapidez</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="feature-card-modern">
+                            <div class="feature-icon-modern">
+                                <i class="fas fa-shield-alt"></i>
+                            </div>
+                            <h5>DevSecOps</h5>
+                            <p>Controles de seguridad integrados en todo el ciclo de desarrollo</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Infografía CI/CD -->
+            <div class="infografia-section mb-5">
+                <h3 class="section-title">
+                    <i class="fas fa-project-diagram"></i>
+                    Integración y Distribución Continua (CI/CD)
+                </h3>
+                <div class="infografia-container">
+                    <img src="images/Integracion YDistribucionContinuaCICD.png" 
+                         alt="Integración y Distribución Continua CI/CD" 
+                         class="infografia-image">
+                    <p class="infografia-description">
+                        <i class="fas fa-info-circle me-2"></i>
+                        Diagrama del flujo de trabajo CI/CD en DevOps
+                    </p>
+                </div>
+            </div>
+
+            <!-- Metodología -->
+            <div class="info-section mb-5">
+                <h3><i class="fas fa-project-diagram me-3"></i>Metodología DevOps</h3>
+                <p class="lead-text mb-4">
+                    La metodología DevOps combina los principios de las metodologías ágiles con la automatización 
+                    y la integración continua. El proceso general sigue estas etapas:
+                </p>
+                <div class="devops-cycle">
+                    <div class="cycle-step">
+                        <div class="step-number">1</div>
+                        <h5>Planificación</h5>
+                        <p>Definición de objetivos y tareas, priorizando la comunicación entre equipos</p>
+                    </div>
+                    <div class="cycle-step">
+                        <div class="step-number">2</div>
+                        <h5>Codificación</h5>
+                        <p>Desarrollo aplicando buenas prácticas y control de versiones</p>
+                    </div>
+                    <div class="cycle-step">
+                        <div class="step-number">3</div>
+                        <h5>Integración Continua</h5>
+                        <p>Cambios integrados automáticamente con pruebas para evitar errores</p>
+                    </div>
+                    <div class="cycle-step">
+                        <div class="step-number">4</div>
+                        <h5>Entrega Continua</h5>
+                        <p>Software preparado para despliegue automático tras superar pruebas</p>
+                    </div>
+                    <div class="cycle-step">
+                        <div class="step-number">5</div>
+                        <h5>Despliegue</h5>
+                        <p>Implementación segura y controlada en entornos de producción</p>
+                    </div>
+                    <div class="cycle-step">
+                        <div class="step-number">6</div>
+                        <h5>Monitoreo</h5>
+                        <p>Análisis de resultados y rendimiento del sistema</p>
+                    </div>
+                    <div class="cycle-step">
+                        <div class="step-number">7</div>
+                        <h5>Retroalimentación</h5>
+                        <p>Recopilación de comentarios para optimización continua</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Herramientas DevOps -->
+            <div class="tools-section mb-5">
+                <h3 class="section-title">
+                    <i class="fas fa-toolbox"></i>
+                    Herramientas DevOps Esenciales
+                </h3>
+                <div class="row g-4">
+                    <div class="col-md-6">
+                        <div class="tool-category-card">
+                            <div class="tool-category-header">
+                                <i class="fab fa-git-alt"></i>
+                                <h4>Control de Versiones</h4>
+                            </div>
+                            <div class="tool-item">
+                                <strong>Git</strong>
+                                <p>Sistema distribuido compatible con GitHub, GitLab y Bitbucket</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-6">
+                        <div class="tool-category-card">
+                            <div class="tool-category-header">
+                                <i class="fas fa-sync"></i>
+                                <h4>CI/CD</h4>
+                            </div>
+                            <div class="tool-item">
+                                <strong>Jenkins</strong>
+                                <p>+1,900 plugins, Pipeline-as-Code, altamente personalizable</p>
+                            </div>
+                            <div class="tool-item">
+                                <strong>GitLab CI/CD</strong>
+                                <p>Integrado con GitLab, fácil de usar, configuración YAML</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-6">
+                        <div class="tool-category-card">
+                            <div class="tool-category-header">
+                                <i class="fas fa-cogs"></i>
+                                <h4>Gestión de Configuración</h4>
+                            </div>
+                            <div class="tool-item">
+                                <strong>Ansible</strong>
+                                <p>Automatiza configuración de sistemas usando YAML, sin agentes</p>
+                            </div>
+                            <div class="tool-item">
+                                <strong>Puppet</strong>
+                                <p>Popular en entornos empresariales, configuraciones declarativas</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-6">
+                        <div class="tool-category-card">
+                            <div class="tool-category-header">
+                                <i class="fab fa-docker"></i>
+                                <h4>Contenedores y Orquestación</h4>
+                            </div>
+                            <div class="tool-item">
+                                <strong>Docker</strong>
+                                <p>Plataforma para crear y ejecutar aplicaciones en contenedores</p>
+                            </div>
+                            <div class="tool-item">
+                                <strong>Kubernetes</strong>
+                                <p>Orquestador de contenedores con escalado y gestión automática</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-6">
+                        <div class="tool-category-card">
+                            <div class="tool-category-header">
+                                <i class="fas fa-chart-bar"></i>
+                                <h4>Monitoreo</h4>
+                            </div>
+                            <div class="tool-item">
+                                <strong>Prometheus</strong>
+                                <p>Monitorización basada en métricas, ideal para Kubernetes</p>
+                            </div>
+                            <div class="tool-item">
+                                <strong>Grafana</strong>
+                                <p>Visualización de métricas y creación de dashboards</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-6">
+                        <div class="tool-category-card">
+                            <div class="tool-category-header">
+                                <i class="fas fa-shield-alt"></i>
+                                <h4>Seguridad (DevSecOps)</h4>
+                            </div>
+                            <div class="tool-item">
+                                <strong>Snyk</strong>
+                                <p>Escaneo de vulnerabilidades en dependencias de código</p>
+                            </div>
+                            <div class="tool-item">
+                                <strong>SonarQube</strong>
+                                <p>Análisis estático de código para detectar errores</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Ventajas y Desventajas -->
+            <div class="pros-cons-section mb-5">
+                <h3 class="section-title">
+                    <i class="fas fa-balance-scale"></i>
+                    Ventajas y Desventajas
+                </h3>
+                <div class="row g-4">
+                    <div class="col-lg-6">
+                        <div class="tool-analysis-card">
+                            <div class="tool-header">
+                                <i class="fas fa-thumbs-up"></i>
+                                <h4>Ventajas</h4>
+                            </div>
+                            <ul class="pros-section">
+                                <li><i class="fas fa-check"></i> Entrega continua y más rápida del software</li>
+                                <li><i class="fas fa-check"></i> Mejora la colaboración entre equipos</li>
+                                <li><i class="fas fa-check"></i> Incrementa estabilidad y calidad del software</li>
+                                <li><i class="fas fa-check"></i> Automatiza procesos reduciendo errores humanos</li>
+                                <li><i class="fas fa-check"></i> Adaptación rápida a cambios del mercado</li>
+                                <li><i class="fas fa-check"></i> Optimiza recursos y reduce costos operativos</li>
+                                <li><i class="fas fa-check"></i> Monitoreo constante y retroalimentación continua</li>
+                                <li><i class="fas fa-check"></i> Cultura de mejora continua e innovación</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="tool-analysis-card">
+                            <div class="tool-header">
+                                <i class="fas fa-thumbs-down"></i>
+                                <h4>Desventajas</h4>
+                            </div>
+                            <ul class="cons-section">
+                                <li><i class="fas fa-times"></i> Requiere cambio cultural complejo</li>
+                                <li><i class="fas fa-times"></i> Curva de aprendizaje en herramientas</li>
+                                <li><i class="fas fa-times"></i> Dependencia de automatización bien configurada</li>
+                                <li><i class="fas fa-times"></i> Riesgo de seguridad si no se integra correctamente</li>
+                                <li><i class="fas fa-times"></i> Costos iniciales altos para infraestructura</li>
+                                <li><i class="fas fa-times"></i> Posibles conflictos de roles y responsabilidades</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Conclusiones -->
+            <div class="info-section mb-5">
+                <h3><i class="fas fa-check-circle me-3"></i>Conclusiones</h3>
+                <div class="conclusions-grid">
+                    <div class="conclusion-item">
+                        <i class="fas fa-arrow-right"></i>
+                        <p>DevOps representa un paradigma transformador al integrar desarrollo y operaciones en un flujo colaborativo y automatizado</p>
+                    </div>
+                    <div class="conclusion-item">
+                        <i class="fas fa-arrow-right"></i>
+                        <p>Las metodologías y herramientas DevOps mejoran significativamente la eficiencia, calidad y velocidad en la entrega de software</p>
+                    </div>
+                    <div class="conclusion-item">
+                        <i class="fas fa-arrow-right"></i>
+                        <p>Impulsa la transformación digital permitiendo responder rápidamente a cambios del mercado</p>
+                    </div>
+                    <div class="conclusion-item">
+                        <i class="fas fa-arrow-right"></i>
+                        <p>Su implementación requiere preparación adecuada: capacitación, cambio cultural y gestión de riesgos</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Equipo -->
+            <div class="team-section mb-5">
+                <h3 class="section-title">
+                    <i class="fas fa-users-cog"></i>
+                    Equipo de Desarrollo
+                </h3>
+                <div class="team-grid">
+                    <div class="team-member">
+                        <img src="images/joel.jpeg" alt="Joel Espinoza" style="width:90px;height:90px;border-radius:50%;object-fit:cover;">
+                        <strong>Joel Espinoza</strong>
+                        <span>Full Stack Developer</span>
+                    </div>
+                    <div class="team-member">
+                        <img src="images/alesso.jpeg" alt="Alessandro González" style="width:90px;height:90px;border-radius:50%;object-fit:cover;">
+                        <strong>Alessandro González</strong>
+                        <span>Full Stack Developer</span>
+                    </div>
+                    <div class="team-member">
+                        <img src="images/david.jpeg" alt="David López" style="width:90px;height:90px;border-radius:50%;object-fit:cover;">
+                        <strong>David López</strong>
+                        <span>Frontend Developer</span>
+                    </div>
+                    <div class="team-member">
+                        <img src="images/cris.jpeg" alt="Christopher Paucar" style="width:90px;height:90px;border-radius:50%;object-fit:cover;">
+                        <strong>Christopher Paucar</strong>
+                        <span>Backend Developer</span>
+                    </div>
+                    <div class="team-member">
+                        <img src="images/jade.jpeg" alt="Jade Ramírez" style="width:90px;height:90px;border-radius:50%;object-fit:cover;">
+                        <strong>Jade Ramírez</strong>
+                        <span>Mobile Developer</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Video Explicativo CI/CD -->
+            <div class="video-section mb-5">
+                <h3 class="section-title">
+                    <i class="fas fa-play-circle"></i>
+                    Video Explicativo: CI/CD en la Práctica
+                </h3>
+                <div class="video-container">
+                    <iframe 
+                        src="https://www.youtube.com/embed/iroj36h5-FA"
+                        title="CI/CD Explicación"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen>
+                    </iframe>
+                </div>
+                <p class="video-description">
+                    <i class="fas fa-info-circle me-2"></i>
+                    Explicación de Integración y Despliegue Continuo (CI/CD)
+                </p>
+            </div>
+
+            <!-- Enlaces y Recursos -->
+            <div class="resources-section">
+                <h3 class="section-title">
+                    <i class="fas fa-link"></i>
+                    Recursos del Proyecto
+                </h3>
+                <div class="resource-buttons">
+                    <a href="https://www.canva.com/design/DAG2Xd_8S0s/PbohdMPS4PV7ucUFrtTbXg/view" target="_blank" class="resource-btn presentation">
+                        <i class="fas fa-image"></i>
+                        <span>Ver Infografía Completa</span>
+                    
                     <a href="https://www.youtube.com/watch?v=iroj36h5-FA" target="_blank" class="resource-btn blog">
                         <i class="fab fa-youtube"></i>
                         <span>Ver Video en YouTube</span>
