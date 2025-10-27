@@ -4,7 +4,7 @@
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
     <div class="container">
         <a class="navbar-brand d-flex align-items-center" href="index.php">
-            <img src="images/logo.png" alt="Logo Tu Empresa" class="logo-img">
+            <img src="images/logo1.png" alt="Logo Tu Empresa" class="logo-img">
             <span class="brand-text ms-2">TECH-INDUSTRIES</span>
         </a>
         <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">

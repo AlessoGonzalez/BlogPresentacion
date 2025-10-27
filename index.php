@@ -7,8 +7,8 @@
     <meta name="description" content="Somos un equipo de 5 expertos en desarrollo de software a medida. Innovamos, creamos y transformamos ideas en soluciones digitales.">
 
     <!-- Favicon -->
-    <link rel="icon" type="image/svg+xml" href="images/logo.png">
-    <link rel="shortcut icon" type="image/svg+xml" href="images/logo.png">
+    <link rel="icon" type="image/svg+xml" href="images/logo1.png">
+    <link rel="shortcut icon" type="image/svg+xml" href="images/logo1.png">
 
     <!-- Bootstrap 5 CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
